@@ -1,48 +1,784 @@
-group,variable,value,mutation
-SampleID-2647,BRCA1,0.02,
-SampleID-3515,BRCA1,0.02,
-SampleID-2340,BRCA1,0.02,
-SampleID-2478,BRCA1,0.02,
-SampleID-1012,BRCA1,0.02,SNV
-SampleID-1017,BRCA1,0.02,
-SampleID-3518,BRCA1,0.02,
-SampleID-1869,BRCA1,0.02,
-SampleID-2408,BRCA1,0.02,Fusion
-SampleID-3055,BRCA1,0.02,
-SampleID-3061,BRCA1,0.02,Deletion
-SampleID-3431,BRCA1,0.02,
-SampleID-2037,BRCA1,0.02,
-SampleID-1052,BRCA1,0.02,
-SampleID-2941,BRCA1,0.02,
-SampleID-2106,BRCA1,0.1,
-SampleID-3697,BRCA1,0.1,
-SampleID-2242,BRCA1,0.1,
-SampleID-3623,BRCA1,0.1,
-SampleID-3921,BRCA1,0.1,
-SampleID-3721,BRCA1,0.15,
-SampleID-2453,BRCA1,0.4515,
-SampleID-2705,BRCA1,0.625,
-SampleID-3468,BRCA1,0.15,
-SampleID-3328,BRCA1,0.12,
-SampleID-3891,BRCA1,0.9,
-SampleID-2991,BRCA1,0.123,
-SampleID-1033,BRCA1,0.5124,
-SampleID-2171,BRCA1,0.656,SNV
-SampleID-2475,BRCA1,0.124,
-SampleID-2167,BRCA1,0.123455,
-SampleID-2365,BRCA1,0.6546,
-SampleID-2883,BRCA1,0.5687,
-SampleID-2967,BRCA1,0.56856,
-SampleID-3308,BRCA1,0.9,
-SampleID-3810,BRCA1,0.9,
-SampleID-3829,BRCA1,0.9,
-SampleID-2124,BRCA1,,SNV
-SampleID-3611,BRCA1,,Insertion
-SampleID-3215,BRCA1,,Deletion
-SampleID-1670,BRCA1,,Insertion
-SampleID-3208,BRCA1,,SNV
-SampleID-1931,BRCA1,,Insertion
-SampleID-2727,BRCA1,,SNV
-SampleID-3652,BRCA1,,SNV
-SampleID-2647,BRCA2,0.2,
-SampleID-3515,BRCA2,0.5,
+Study,Sample,LogRatio,UnsharedLogRatio,SampleType,PrimarySite,Disease
+Prospective Breast BI Proteome,ef52c640-13a9-4855-9ce2-0be77a_D2,0.3567710340133009,0.3560765414724124,Primary Tumor,Breast,Breast Invasive Carcinoma
+Prospective Breast BI Proteome,6d34d499-167e-42aa-9790-316fca_D2,0.442485060363072,0.4425441835225358,Primary Tumor,Breast,Breast Invasive Carcinoma
+Prospective Breast BI Proteome,2e700669-85b0-43fa-a9c7-3eaf5a_D2,-0.3496438880574589,-0.3501460175311795,Primary Tumor,Breast,Breast Invasive Carcinoma
+Prospective Breast BI Proteome,079b5600-6afc-4785-bb22-48cfab_D2,-0.1763127300004216,-0.1691881255833083,Primary Tumor,Breast,Breast Invasive Carcinoma
+Prospective Breast BI Proteome,0bb9d596-774e-452b-9c89-a6643c_D2,0.0521899295848256,0.0415584209311019,Primary Tumor,Breast,Breast Invasive Carcinoma
+Prospective Breast BI Proteome,31b13596-554e-452f-91a4-7e67a8_D2,0.746362883160516,0.7338080113604541,Primary Tumor,Breast,Breast Invasive Carcinoma
+Prospective Breast BI Proteome,12ce8313-6c54-4bee-a996-1aa7f8_D2,0.2524189439954017,0.2478753089194566,Primary Tumor,Breast,Breast Invasive Carcinoma
+Prospective Breast BI Proteome,392b8aa4-9f99-4250-b693-326260_D2,0.1228178041640774,0.130668442175881,Primary Tumor,Breast,Breast Invasive Carcinoma
+Prospective Breast BI Proteome,09659708-7747-4d59-a3b9-e221e0_D2,-0.113533335105684,-0.1163474469920072,Primary Tumor,Breast,Breast Invasive Carcinoma
+Prospective Breast BI Proteome,3799eeb5-c966-4059-a78f-ace269_D2,0.1927671386071218,0.1869648060850569,Primary Tumor,Breast,Breast Invasive Carcinoma
+Prospective Breast BI Proteome,150c2086-1815-40d2-bc5d-8eeb48_D2,-0.584504549437556,-0.5809985524827781,Primary Tumor,Breast,Breast Invasive Carcinoma
+Prospective Breast BI Proteome,241c8dec-b317-4794-8cc2-07c14c_D2,0.3506170747843993,0.3474452718956734,Primary Tumor,Breast,Breast Invasive Carcinoma
+Prospective Breast BI Proteome,42cc89e1-a896-4f57-b8d9-e7fe56_D2,-0.4119019664365934,-0.4176115028309901,Primary Tumor,Breast,Breast Invasive Carcinoma
+Prospective Breast BI Proteome,8d7fc1ef-a0ac-44bb-8381-1444a0_D2,0.6316829150696337,0.6182979565610311,Primary Tumor,Breast,Breast Invasive Carcinoma
+Prospective Breast BI Proteome,17d55745-4ab3-4a80-a182-af938b_D2,-0.101043553272189,-0.1132218532355684,Primary Tumor,Breast,Breast Invasive Carcinoma
+Prospective Breast BI Proteome,3fdf0dbe-e05c-465f-8bed-4a92dd_D2.1,0.0455249200527542,0.047639541147003,,,
+Prospective Breast BI Proteome,e5e1306b-719e-4c3e-b85b-fd1231_D2,-0.0895138552536181,-0.0830969862847692,Primary Tumor,Breast,Breast Invasive Carcinoma
+Prospective Breast BI Proteome,92862537-5f30-47db-a3e2-cc9d0c_D2,-0.3958319002872865,-0.4079671775306389,Primary Tumor,Breast,Breast Invasive Carcinoma
+Prospective Breast BI Proteome,fb526979-ee2d-4edf-b41d-01074f_D2.1,0.6365255001826069,0.6579769066230021,,,
+Prospective Breast BI Proteome,1990853a-0e82-40b3-a025-91cdc1_D2,-0.2015941136788463,-0.2241121917605488,Primary Tumor,Breast,Breast Invasive Carcinoma
+Prospective Breast BI Proteome,ca14c6dd-2069-4bc5-b1f2-6f2297_D2,0.7028677659910088,0.6920234007892442,Primary Tumor,Breast,Breast Invasive Carcinoma
+Prospective Breast BI Proteome,fe591474-99d7-44d3-be73-c3b8ed_D2,0.074529092178456,0.0651483879143326,Primary Tumor,Breast,Breast Invasive Carcinoma
+Prospective Breast BI Proteome,01f203fd-e664-4d78-bea0-7c40cf_D2,0.1447427123612999,0.1355911888611569,Primary Tumor,Breast,Breast Invasive Carcinoma
+Prospective Breast BI Proteome,314de592-f356-4801-8ace-278173_D2,0.0265142382182126,0.0265142382182126,Primary Tumor,Breast,Breast Invasive Carcinoma
+Prospective Breast BI Proteome,68ef4aa9-00b0-4528-8828-4d3e43_D2.1,0.3100100061240667,0.3107973124533801,,,
+Prospective Breast BI Proteome,4683de9c-49ca-4ddd-9d1a-be8121_D2,0.613021712738289,0.607754503463926,Primary Tumor,Breast,Breast Invasive Carcinoma
+Prospective Breast BI Proteome,2dc74c29-2e89-4600-80bf-1e3637_D2,0.0363049614841109,0.0291929668964806,Primary Tumor,Breast,Breast Invasive Carcinoma
+Prospective Breast BI Proteome,3b177fd6-e7d2-4312-bec7-4a253d_D2,0.8661203324922275,0.8638948083382986,Primary Tumor,Breast,Breast Invasive Carcinoma
+Prospective Breast BI Proteome,b292e992-0611-4254-872f-af8275_D2,0.7259929612713338,0.712959634522761,Primary Tumor,Breast,Breast Invasive Carcinoma
+Prospective Breast BI Proteome,2f398497-d53e-4838-8006-d60f3e_D2,-0.3262164528437162,-0.3249132841161818,Primary Tumor,Breast,Breast Invasive Carcinoma
+Prospective Breast BI Proteome,5d27516f-58d7-4155-80b4-4c7f39_D2,0.2632820332675687,0.257245700537499,Primary Tumor,Breast,Breast Invasive Carcinoma
+Prospective Breast BI Proteome,3324361b-df55-4e53-a2ef-4f8df2_D2,0.4489419578497752,0.4477846076569141,Primary Tumor,Breast,Breast Invasive Carcinoma
+Prospective Breast BI Proteome,0edcba67-0714-4b04-b433-77834e_D2,0.5137858757801226,0.5097625520970289,Primary Tumor,Breast,Breast Invasive Carcinoma
+Prospective Breast BI Proteome,358296ad-e2a7-40cd-849e-8590fd_D2,0.4225894521456847,0.4116266570342409,Primary Tumor,Breast,Breast Invasive Carcinoma
+Prospective Breast BI Proteome,6cb5d29a-9437-430d-b91c-57ee3d_D2,0.2908330038805417,0.2880545010314107,Primary Tumor,Breast,Breast Invasive Carcinoma
+Prospective Breast BI Proteome,94176301-9658-4151-9110-5139de_D2,0.0733149601387327,0.0659510545370829,Primary Tumor,Breast,Breast Invasive Carcinoma
+Prospective Breast BI Proteome,abee08ca-606d-4e2a-a2e6-24780f_D2,0.0278928258230793,0.0142632612406853,Primary Tumor,Breast,Breast Invasive Carcinoma
+Prospective Breast BI Proteome,8dd1d8be-dc7e-44f5-9f44-77ecf0_D2,0.1526309071439299,0.154756442643572,Primary Tumor,Breast,Breast Invasive Carcinoma
+Prospective Breast BI Proteome,b87e7f88-a1f2-425a-8cff-8ae4b9_D2,-0.1361851302223766,-0.1536977804167201,Primary Tumor,Breast,Breast Invasive Carcinoma
+Prospective Breast BI Proteome,c646b902-e1e0-4e3e-a4c5-daca71_D2,0.0018976502719332,-0.0065918714158848,Primary Tumor,Breast,Breast Invasive Carcinoma
+Prospective Breast BI Proteome,da3d7876-ca79-4f21-a00e-27e6b6_D2,-0.3879142829227155,-0.3920665437690273,Primary Tumor,Breast,Breast Invasive Carcinoma
+Prospective Breast BI Proteome,faadb553-9437-42cb-b469-498d67_D2,0.6086576790445212,0.6059350018438527,Primary Tumor,Breast,Breast Invasive Carcinoma
+Prospective Breast BI Proteome,49f55bd6-a89a-4d18-b732-139c3d_D2,0.7331992300117991,0.7275439674163882,Primary Tumor,Breast,Breast Invasive Carcinoma
+Prospective Breast BI Proteome,547f521a-5851-426c-a125-d9d82c_D2,-0.4966374164987179,-0.4937766838272373,Primary Tumor,Breast,Breast Invasive Carcinoma
+Prospective Breast BI Proteome,3fdf0dbe-e05c-465f-8bed-4a92dd_D2.2,0.0864622142515129,0.0787856919333084,,,
+Prospective Breast BI Proteome,63a05d68-f0f7-42d9-a45f-df0f7e_D2,-0.1749213709264367,-0.1669125940912233,Primary Tumor,Breast,Breast Invasive Carcinoma
+Prospective Breast BI Proteome,1ae5772a-ba49-4c00-b890-7513d0_D2,-0.0198920992246006,-0.0263234214964904,Primary Tumor,Breast,Breast Invasive Carcinoma
+Prospective Breast BI Proteome,d8a5467b-549b-48ed-9ae5-c9c39d_D2,0.485750824851582,0.4788742475993876,Primary Tumor,Breast,Breast Invasive Carcinoma
+Prospective Breast BI Proteome,55d3d4bb-0bf5-4b4e-8ef8-d77a5d_D2,-0.3506219483241211,-0.3546206188916992,Primary Tumor,Breast,Breast Invasive Carcinoma
+Prospective Breast BI Proteome,ddc680ad-63cf-4807-b535-9ccc88_D2,0.6052243030286103,0.6054365604955285,Primary Tumor,Breast,Breast Invasive Carcinoma
+Prospective Breast BI Proteome,12110cb8-8da4-4461-ac1a-1af490_D2,0.1368390475979076,0.131093156577429,Primary Tumor,Breast,Breast Invasive Carcinoma
+Prospective Breast BI Proteome,436db08d-c316-44b5-b0de-62617d_D2,-0.4207338057323331,-0.4271138696772772,Primary Tumor,Breast,Breast Invasive Carcinoma
+Prospective Breast BI Proteome,96c52a27-3d9a-49e7-8ae8-a71e7c_D2,-0.7635431964689348,-0.7503004655185074,Primary Tumor,Breast,Breast Invasive Carcinoma
+Prospective Breast BI Proteome,bc9fe67f-c4a2-43ba-87bd-438bda_D2.1,0.9025493971562538,0.8999093102333026,,,
+Prospective Breast BI Proteome,96c95de1-514b-44a5-b487-dc390b_D2,0.5948801642865235,0.5871031708587561,Primary Tumor,Breast,Breast Invasive Carcinoma
+Prospective Breast BI Proteome,436297af-feb7-4754-96b7-c5bfb5_D2,0.376631720766705,0.3804709761108836,Primary Tumor,Breast,Breast Invasive Carcinoma
+Prospective Breast BI Proteome,9efd41a5-3db1-445b-accb-040c2b_D2,0.0226259588457716,0.0161864703737,Primary Tumor,Breast,Breast Invasive Carcinoma
+Prospective Breast BI Proteome,3f957017-d081-45f4-b458-ec3f8d_D2,0.0788391387629771,0.0755035340962882,Primary Tumor,Breast,Breast Invasive Carcinoma
+Prospective Breast BI Proteome,1f5a9aad-61a1-4a64-a9b0-38cd2b_D2,0.2102600398048968,0.2010493741488828,Primary Tumor,Breast,Breast Invasive Carcinoma
+Prospective Breast BI Proteome,d154d194-2b08-46d4-a199-84cfb8_D8,0.1967896716958434,0.1930272177082431,Primary Tumor,Breast,Breast Invasive Carcinoma
+Prospective Breast BI Proteome,8ab1a564-9a18-43bf-aee3-7fceb0_D2,-0.2090848162040177,-0.2006455600759384,Primary Tumor,Breast,Breast Invasive Carcinoma
+Prospective Breast BI Proteome,b10c7b72-1d44-4668-a637-a536b2_D2,0.998533851716266,0.9812509011986772,Primary Tumor,Breast,Breast Invasive Carcinoma
+Prospective Breast BI Proteome,RetroIR.1,0.3908203910366732,0.3860962974888202,,,
+Prospective Breast BI Proteome,d01714eb-22bf-4ad7-95d9-f95bdf_D2,0.3042966210827307,0.2998812399535547,Primary Tumor,Breast,Breast Invasive Carcinoma
+Prospective Breast BI Proteome,4798bb9d-7100-43aa-b615-85897d_D2,-0.2173299154507404,-0.2191443330035296,Primary Tumor,Breast,Breast Invasive Carcinoma
+Prospective Breast BI Proteome,2386c36d-8d5d-4fd4-bbfa-39cc8d_D2.1,0.5350607182831101,0.5282736710915709,,,
+Prospective Breast BI Proteome,d92a2942-dba6-4fff-b0d0-0566fb_D2,-0.1349890670899086,-0.1250907821256296,Primary Tumor,Breast,Breast Invasive Carcinoma
+Prospective Breast BI Proteome,a7d58d61-5049-488f-9d0a-0a4411_D2,-0.4189304623864778,-0.4056323038070114,Primary Tumor,Breast,Breast Invasive Carcinoma
+Prospective Breast BI Proteome,4533a2d6-e850-43f3-9c44-621c07_D2,0.3431589480794095,0.3351260189990545,Primary Tumor,Breast,Breast Invasive Carcinoma
+Prospective Breast BI Proteome,25db2586-55b0-4456-9bba-c24e06_D2,0.4758749533449353,0.4810309344739052,Primary Tumor,Breast,Breast Invasive Carcinoma
+Prospective Breast BI Proteome,a176fcc2-97b5-45c3-a0f3-3b2e41_D2,-0.0319976955675823,-0.0291165161887227,Primary Tumor,Breast,Breast Invasive Carcinoma
+Prospective Breast BI Proteome,855256a7-e41e-4158-b02f-ba61a9_D2,0.8593682995336676,0.8510143661480085,Primary Tumor,Breast,Breast Invasive Carcinoma
+Prospective Breast BI Proteome,48d1b543-dbf6-4594-b34a-d0e30a_D2,0.1593822048508766,0.152134725437645,Primary Tumor,Breast,Breast Invasive Carcinoma
+Prospective Breast BI Proteome,d6d42051-ad8e-4fb2-8cfc-829353_D2,-0.1644276956844133,-0.1897316938345771,Primary Tumor,Breast,Breast Invasive Carcinoma
+Prospective Breast BI Proteome,cab796c6-0129-43cf-bd27-7da395_D2,-0.0727903075866598,-0.072924499218464,Primary Tumor,Breast,Breast Invasive Carcinoma
+Prospective Breast BI Proteome,d7b05dce-4362-4e8f-a77a-07dd74_D2,0.4785382594929251,0.4711065905717975,Primary Tumor,Breast,Breast Invasive Carcinoma
+Prospective Breast BI Proteome,48de7e82-4cba-423c-9e39-89ac6b_D2,-0.2147018308835396,-0.2073650833338752,Primary Tumor,Breast,Breast Invasive Carcinoma
+Prospective Breast BI Proteome,8886aaca-adcf-4416-920a-794bf0_D2,0.4782478331503345,0.4703409186904257,Primary Tumor,Breast,Breast Invasive Carcinoma
+Prospective Breast BI Proteome,c4015b28-269b-4dc4-8b2e-1b83f7_D2,0.0730413684317273,0.0650779572057871,Primary Tumor,Breast,Breast Invasive Carcinoma
+Prospective Breast BI Proteome,ffc76bfb-61f6-4492-a782-c23321_D2,-0.1764640220269609,-0.190784884831645,Primary Tumor,Breast,Breast Invasive Carcinoma
+Prospective Breast BI Proteome,d0ce3c06-9c4c-41bd-b583-9254b0_D2,-0.3796783212965719,-0.3965744253581862,Primary Tumor,Breast,Breast Invasive Carcinoma
+Prospective Breast BI Proteome,6eaf19bf-dd93-4b0b-93c5-e2bca3_D2,-0.2316234090878298,-0.2449536420270668,Primary Tumor,Breast,Breast Invasive Carcinoma
+Prospective Breast BI Proteome,d1e36453-8d78-4247-8c3c-3b2a6f_D2,1.0287611695409529,1.0300619939149689,Primary Tumor,Breast,Breast Invasive Carcinoma
+Prospective Breast BI Proteome,e45c73a8-da96-4269-a039-d43942_D2,-0.2039982377268702,-0.1978558382642747,Primary Tumor,Breast,Breast Invasive Carcinoma
+Prospective Breast BI Proteome,4e766d9f-ede3-4311-bf09-b1f9ba_D2,-0.1578743684602063,-0.156404773001975,Primary Tumor,Breast,Breast Invasive Carcinoma
+Prospective Breast BI Proteome,45b99ac4-0859-4a3d-8b1e-ce5590_D2.1,-0.3691755114954745,-0.3633919149300624,,,
+Prospective Breast BI Proteome,5c9ee07a-ca8f-49bf-9c03-2dc513_D2,-0.1019596362477465,-0.103286959600066,Primary Tumor,Breast,Breast Invasive Carcinoma
+Prospective Breast BI Proteome,bebb15ad-03f1-4773-b3d4-2f78e3_D2,0.7236933108663669,0.7243077936749198,Primary Tumor,Breast,Breast Invasive Carcinoma
+Prospective Breast BI Proteome,a2637649-1fa1-4c20-a19d-5d5f11_D2,0.1618947556196114,0.1681068976274641,Primary Tumor,Breast,Breast Invasive Carcinoma
+Prospective Breast BI Proteome,59318d66-8b88-45b2-9b97-90e9a7_D2,0.6079536761211393,0.5937100500678045,Primary Tumor,Breast,Breast Invasive Carcinoma
+Prospective Breast BI Proteome,413d7d87-7b86-4b76-af93-8e8136_D2,0.726368011614967,0.7228955935138917,Primary Tumor,Breast,Breast Invasive Carcinoma
+Prospective Breast BI Proteome,4a25e3da-2226-4e23-a595-c11709_D2,-0.7188611978749803,-0.7356505796346701,Primary Tumor,Breast,Breast Invasive Carcinoma
+Prospective Breast BI Proteome,fc0aa1e4-c1d8-43ed-a5cd-038f61_D2,0.1231029817360168,0.1259845628560713,Primary Tumor,Breast,Breast Invasive Carcinoma
+Prospective Breast BI Proteome,56b488cf-a189-47a8-b4e2-d976eb_D2,0.2307367423211445,0.2292627540428289,Primary Tumor,Breast,Breast Invasive Carcinoma
+Prospective Breast BI Proteome,942e63bd-84d6-4227-b3de-03e182_D2,-0.3156491539744213,-0.3174864517205509,Primary Tumor,Breast,Breast Invasive Carcinoma
+Prospective Breast BI Proteome,fb526979-ee2d-4edf-b41d-01074f_D2.2,0.3514755858756109,0.3727460453448547,,,
+Prospective Breast BI Proteome,97cc4d46-cf80-41f1-b99c-bc4829_D2.1,-0.4115347312545806,-0.4098465079730927,,,
+Prospective Breast BI Proteome,cfc121b5-9562-4a6d-b792-3cd6d5_D2,-0.448820848941583,-0.440703163762988,Primary Tumor,Breast,Breast Invasive Carcinoma
+Prospective Breast BI Proteome,5504c643-4a9c-4ec4-ab07-bebdaf_D2,-0.0198152876947396,-0.0124966779928908,Primary Tumor,Breast,Breast Invasive Carcinoma
+Prospective Breast BI Proteome,ca576d30-be91-4bf5-a31d-80f7eb_D2,0.2940368645142733,0.2897163266223675,Primary Tumor,Breast,Breast Invasive Carcinoma
+Prospective Breast BI Proteome,8c9232b9-bd06-4474-8236-70dd8a_D2,0.3927046121636061,0.3929682956708423,Primary Tumor,Breast,Breast Invasive Carcinoma
+Prospective Breast BI Proteome,7557b796-f11c-4077-a1af-b249c8_D2,-0.1399742961998586,-0.140153867731198,Primary Tumor,Breast,Breast Invasive Carcinoma
+Prospective Breast BI Proteome,b2d62dca-3741-4d59-92b8-bdcfed_D2,0.2767631478146714,0.2862240405071595,Primary Tumor,Breast,Breast Invasive Carcinoma
+Prospective Breast BI Proteome,CPT001846-0005,0.0812639199204239,0.0599546303241939,Primary Tumor,Breast,Breast Invasive Carcinoma
+Prospective Breast BI Proteome,5a9e89e9-4ac6-4c2f-b05e-c956ba_D2,0.3113906509756571,0.3115635497259394,Primary Tumor,Breast,Breast Invasive Carcinoma
+Prospective Breast BI Proteome,45b99ac4-0859-4a3d-8b1e-ce5590_D2.2,-0.2193719516508258,-0.2131162354011335,,,
+Prospective Breast BI Proteome,3bbf4310-6a83-4d3b-8772-a5dbb6_D2,0.0091931967174642,0.010645168620514,Primary Tumor,Breast,Breast Invasive Carcinoma
+Prospective Breast BI Proteome,6838157f-361d-4e95-b933-35bd46_D2,0.9193267546856502,0.9078651729806058,Primary Tumor,Breast,Breast Invasive Carcinoma
+Prospective Breast BI Proteome,878c2524-208e-40b2-8089-ceb820_D2,-0.3845993528285494,-0.380663784434191,Primary Tumor,Breast,Breast Invasive Carcinoma
+Prospective Breast BI Proteome,e2c7113f-957f-4088-b57d-55d2f2_D2,-0.5332901560505318,-0.538438982667287,Primary Tumor,Breast,Breast Invasive Carcinoma
+Prospective Breast BI Proteome,CPT000814-0004,-0.221368878655476,-0.2391816109239186,Primary Tumor,Breast,Breast Invasive Carcinoma
+Prospective Breast BI Proteome,4df35993-eab6-4289-822c-d77da9_D2,-0.0164628550782702,-0.0260257661771058,Primary Tumor,Breast,Breast Invasive Carcinoma
+Prospective Breast BI Proteome,433c2eb6-560f-4387-93af-6c2e1a_D2,0.0503767613165077,0.0421091005354589,Primary Tumor,Breast,Breast Invasive Carcinoma
+Prospective Breast BI Proteome,d1034660-11ce-4e38-9ad0-8b9b72_D2,0.4303608882759312,0.4196382031243527,Primary Tumor,Breast,Breast Invasive Carcinoma
+Prospective Breast BI Proteome,80a970f7-7b36-4450-aff8-0b55dc_D2,-0.1938926708772228,-0.1905409974581109,Primary Tumor,Breast,Breast Invasive Carcinoma
+Prospective Breast BI Proteome,98225215-ff21-4893-8b6d-d9b7e7_D2,0.2771316090951742,0.285424617087763,Primary Tumor,Breast,Breast Invasive Carcinoma
+Prospective Breast BI Proteome,RetroIR.2,0.1666833951575044,0.1618684975040173,,,
+Prospective Breast BI Proteome,3367406e-d39c-4641-a3e7-44e1f3,1.3347214609470308,1.3098640233870005,Solid Tissue Normal,Breast,Breast Invasive Carcinoma
+Prospective Breast BI Proteome,1664b920-5e60-4e3b-9aab-fe121c,0.9357643864799124,0.9160632797772073,Solid Tissue Normal,Breast,Breast Invasive Carcinoma
+Prospective Breast BI Proteome,33adae13-5dbd-4530-a5d5-3763e4,1.043378045035208,1.0288484697182536,Solid Tissue Normal,Breast,Breast Invasive Carcinoma
+Prospective Breast BI Proteome,39f81c85-1832-45eb-829a-3040ad,1.01031172921556,0.9895007084187328,Solid Tissue Normal,Breast,Breast Invasive Carcinoma
+Prospective Breast BI Proteome,241ecd0e-89bd-4d3a-81b3-55a250,1.2968059759955135,1.2729179956715553,Solid Tissue Normal,Breast,Breast Invasive Carcinoma
+Prospective Breast BI Proteome,7ac27de9-0932-4ff5-aab8-29c527,0.8813431433226279,0.8629813215965744,Solid Tissue Normal,Breast,Breast Invasive Carcinoma
+Prospective Breast BI Proteome,e3d45dc6-66ef-4e0b-9d96-1b5db5,0.8889350793324806,0.8701612784267169,Solid Tissue Normal,Breast,Breast Invasive Carcinoma
+Prospective Breast BI Proteome,4749ba99-d3b8-4ae3-b6f6-458bc7,0.916499887724276,0.8946719383726466,Solid Tissue Normal,Breast,Breast Invasive Carcinoma
+Prospective Breast BI Proteome,64ee175f-f3ce-446e-bbf4-9b6fa8_D1,0.8391039525106317,0.8113498572815998,Solid Tissue Normal,Breast,Breast Invasive Carcinoma
+Prospective Breast BI Proteome,1740224c-32d1-4c9f-98c6-653363,0.7739309592872156,0.7569332672239046,Solid Tissue Normal,Breast,Breast Invasive Carcinoma
+Prospective Breast BI Proteome,81116212-b7e6-454b-9579-105cf3,0.881906935321469,0.8706285647020943,Solid Tissue Normal,Breast,Breast Invasive Carcinoma
+Prospective Breast BI Proteome,885fe794-a98e-4f81-a284-ac4bb8,0.9340813695578432,0.9242785281344194,Solid Tissue Normal,Breast,Breast Invasive Carcinoma
+Prospective Breast BI Proteome,428de0d4-7f84-4075-bae1-352af6,0.9293743331596984,0.91958629037015,Solid Tissue Normal,Breast,Breast Invasive Carcinoma
+Prospective Breast BI Proteome,acf022b3-7f01-43b3-ac14-86f97d,0.4403801249597191,0.4361046467929757,Solid Tissue Normal,Breast,Breast Invasive Carcinoma
+Prospective Breast BI Proteome,53723086-8858-4395-93d7-0baa68,1.2675944610083811,1.2438004144189172,Solid Tissue Normal,Breast,Breast Invasive Carcinoma
+Prospective Breast BI Proteome,0a80d3c4-0758-447a-958c-ea868c,0.8195547519739895,0.8055794458657956,Solid Tissue Normal,Breast,Breast Invasive Carcinoma
+Prospective Breast BI Proteome,6c660b6b-bfda-47b0-9499-160d49,0.919526501855148,0.9141814009090684,Solid Tissue Normal,Breast,Breast Invasive Carcinoma
+Prospective Breast BI Proteome,3208e021-1dae-42fd-bd36-0f3c3d,0.7779395589337423,0.7612570173530814,Solid Tissue Normal,Breast,Breast Invasive Carcinoma
+Prospective Breast BI Proteome,97cc4d46-cf80-41f1-b99c-bc4829_D2.2,-0.3817292621746333,-0.3733180479995147,,,
+Prospective Breast BI Proteome,0ecabbfa-8095-4875-acdb-051582_D1,-0.4633915595763661,-0.4710454518351976,Primary Tumor,Breast,Breast Invasive Carcinoma
+Prospective Breast BI Proteome,cfa2809f-5468-4457-870c-467c39_D1,-0.1769896696285217,-0.1719005596047373,Primary Tumor,Breast,Breast Invasive Carcinoma
+Prospective Breast BI Proteome,1fb9fca2-cf63-41f2-9381-d9108c,0.0411953541059721,0.0494201013567838,Primary Tumor,Breast,Breast Invasive Carcinoma
+Prospective Breast BI Proteome,32944ee6-428e-44fc-97d6-22665e,0.0165896110598811,0.0196928195430488,Primary Tumor,Breast,Breast Invasive Carcinoma
+Prospective Breast BI Proteome,884659ef-cce7-4b4a-b28b-0e1f49,-0.1739602991628446,-0.1824140287493358,Primary Tumor,Breast,Breast Invasive Carcinoma
+Prospective Breast BI Proteome,71e07184-b085-4d3d-aabf-6e1420_D1,0.5018671104866352,0.5033626464380685,Primary Tumor,Breast,Breast Invasive Carcinoma
+Prospective Breast BI Proteome,071be0fb-b7fd-4165-b3c5-348352,-1.1338931894842137,-1.12786673613252,Primary Tumor,Breast,Breast Invasive Carcinoma
+Prospective Breast BI Proteome,2386c36d-8d5d-4fd4-bbfa-39cc8d_D2.2,0.6943195466948212,0.692201086928977,,,
+Prospective Breast BI Proteome,c875a9a4-035f-425a-9348-26129c_D1,-0.3464230985941916,-0.3404947253157009,Primary Tumor,Breast,Breast Invasive Carcinoma
+Prospective Breast BI Proteome,bc9fe67f-c4a2-43ba-87bd-438bda_D2.2,0.6929288014631964,0.6952144671457284,,,
+Prospective Breast BI Proteome,3fd68501-514a-4a30-9ce1-2fca26_D1,-0.2212759012946694,-0.223014968488256,Primary Tumor,Breast,Breast Invasive Carcinoma
+Prospective Breast BI Proteome,3f52e236-1daa-4aa0-9a77-e3d043_D2,-0.4446501306111372,-0.4469455189946428,Primary Tumor,Breast,Breast Invasive Carcinoma
+Prospective Breast BI Proteome,68ef4aa9-00b0-4528-8828-4d3e43_D2.2,0.1305709443647042,0.1281059997497354,,,
+Prospective Breast BI Proteome,20506075-36a7-4754-8e5e-628918,0.1897064540920243,0.1902733497439337,Primary Tumor,Breast,Breast Invasive Carcinoma
+Prospective Breast BI Proteome,60c8c914-f53d-4f72-a1ce-5fb803,0.0544185251114037,0.0539875459106552,Primary Tumor,Breast,Breast Invasive Carcinoma
+Prospective Breast BI Proteome,45b99ac4-0859-4a3d-8b1e-ce5590_D2.3,-0.4019882461582216,-0.3946239936971625,,,
+Prospective Breast BI Proteome,26ecef2d-fcf3-4b85-9647-5e5d29_D1,-0.6437915242160279,-0.6416792653745278,Primary Tumor,Breast,Breast Invasive Carcinoma
+Prospective Colon PNNL Proteome Qeplus,853ecf90-71e6-4156-a56f-a34b65_D2,0.0677707888091148,0.0651152868842248,Solid Tissue Normal,Colon,Colon Adenocarcinoma
+Prospective Colon PNNL Proteome Qeplus,8cc7e656-0152-4359-8566-0581c3,-0.5820242274795315,-0.5834061805490522,Primary Tumor,Colon,Colon Adenocarcinoma
+Prospective Colon PNNL Proteome Qeplus,b3696374-c6c0-49dd-833e-596e26_D2,0.1960697499700154,0.189707561150564,Solid Tissue Normal,Colon,Colon Adenocarcinoma
+Prospective Colon PNNL Proteome Qeplus,f635496c-0046-4ecd-89bc-7a4f33_D2,-0.5315128737972358,-0.5352172556809781,Primary Tumor,Colon,Colon Adenocarcinoma
+Prospective Colon PNNL Proteome Qeplus,e1cd3d70-132b-452f-ba10-026721_D2,0.1101073209130621,0.1093753496777615,Primary Tumor,Colon,Colon Adenocarcinoma
+Prospective Colon PNNL Proteome Qeplus,bd67de01-ad7d-431a-9ad6-4dd5a1,-0.2353118029499417,-0.2323879544004589,Primary Tumor,Colon,Colon Adenocarcinoma
+Prospective Colon PNNL Proteome Qeplus,21cab01c-e968-42cc-9651-1e53c0_D3,-0.367108891348545,-0.3633557614965364,Primary Tumor,Colon,Colon Adenocarcinoma
+Prospective Colon PNNL Proteome Qeplus,ec9afcc4-ccf7-4226-b0e8-d6897d_D3,0.1242563151467237,0.118892409856402,Primary Tumor,Colon,Colon Adenocarcinoma
+Prospective Colon PNNL Proteome Qeplus,573048dd-2502-40e0-8e8c-c41bb8_D3,0.3031800606057469,0.2989623376905434,Primary Tumor,Colon,Colon Adenocarcinoma
+Prospective Colon PNNL Proteome Qeplus,e070ff10-058b-4733-93ab-bdd702_D2,0.3679902749724253,0.3689448474649509,Solid Tissue Normal,Colon,Colon Adenocarcinoma
+Prospective Colon PNNL Proteome Qeplus,5c70e654-583c-4dd3-ad42-0d9b39_D2,0.4845331525636402,0.4803334133868879,Solid Tissue Normal,Colon,Colon Adenocarcinoma
+Prospective Colon PNNL Proteome Qeplus,66b829db-1cdd-460d-b2f3-0e9ca9_D3,0.011359733414574,0.0050813138050648,Primary Tumor,Colon,Colon Adenocarcinoma
+Prospective Colon PNNL Proteome Qeplus,bda3787a-1397-4716-bb17-4992a8_D2,0.4671736200546005,0.4638651191547166,Solid Tissue Normal,Colon,Colon Adenocarcinoma
+Prospective Colon PNNL Proteome Qeplus,92c1ebb5-ac1d-4bf5-a14f-516e1d_D3,-0.1223673942666339,-0.1248478311353756,Primary Tumor,Colon,Colon Adenocarcinoma
+Prospective Colon PNNL Proteome Qeplus,a243b765-61ab-4aa6-88e1-226896_D2,0.591037245248328,0.5853199458039523,Solid Tissue Normal,Colon,Colon Adenocarcinoma
+Prospective Colon PNNL Proteome Qeplus,dfdf03a6-c324-4d8c-a909-ea7345_D2,-0.0567364056174816,-0.0623099416859059,Primary Tumor,Colon,Colon Adenocarcinoma
+Prospective Colon PNNL Proteome Qeplus,b2400046-1d25-429d-a821-6040a6,-0.1277243015956577,-0.1349383325926534,Primary Tumor,Colon,Colon Adenocarcinoma
+Prospective Colon PNNL Proteome Qeplus,8af80ae9-2088-4124-91fb-8d6c17_D3,-0.1465964924644759,-0.1460474181380015,Primary Tumor,Colon,Colon Adenocarcinoma
+Prospective Colon PNNL Proteome Qeplus,092c5a37-325b-4181-b230-2d8fff_D2,-0.3329937286795949,-0.3347427490935638,Primary Tumor,Colon,Colon Adenocarcinoma
+Prospective Colon PNNL Proteome Qeplus,0065bfd9-e1b9-43a8-9379-9658ba_D3,-0.5429343871124511,-0.5476315914667068,Primary Tumor,Colon,Colon Adenocarcinoma
+Prospective Colon PNNL Proteome Qeplus,325b5314-6f3c-4d79-9b36-4e7ded_D2,0.3466066016457659,0.3444183835698079,Solid Tissue Normal,Colon,Colon Adenocarcinoma
+Prospective Colon PNNL Proteome Qeplus,43bc845e-d22e-4c10-b3e8-bc54e6_D2,0.4081989319083112,0.4082830334220602,Solid Tissue Normal,Colon,Colon Adenocarcinoma
+Prospective Colon PNNL Proteome Qeplus,3a17283c-a0f4-4514-956b-080d11_D2,0.3034596423168284,0.3005208405126979,Solid Tissue Normal,Colon,Colon Adenocarcinoma
+Prospective Colon PNNL Proteome Qeplus,e74089a9-f78c-4ffe-8174-aef71b_D2,0.1785212422817916,0.1812406184609256,Solid Tissue Normal,Colon,Colon Adenocarcinoma
+Prospective Colon PNNL Proteome Qeplus,a5c8bf1d-776c-406f-82a3-2d9ce6_D2,0.3117976873652009,0.3038010209345335,Solid Tissue Normal,Colon,Colon Adenocarcinoma
+Prospective Colon PNNL Proteome Qeplus,722378ea-d1a7-4cfc-aca5-ba45f9_D8,-0.3476376164469745,-0.3525698472466156,Primary Tumor,Colon,Colon Adenocarcinoma
+Prospective Colon PNNL Proteome Qeplus,98742d96-cc2f-43f0-9de2-bc7afe_D3,-0.189705927557961,-0.1843025045278586,Primary Tumor,Colon,Colon Adenocarcinoma
+Prospective Colon PNNL Proteome Qeplus,154115ac-2ec2-439d-b55e-0464ee_D2,0.4824187571252028,0.479847317105751,Solid Tissue Normal,Colon,Colon Adenocarcinoma
+Prospective Colon PNNL Proteome Qeplus,d8805fa4-30f9-4417-907e-fdc50c_D2,0.1204039333060766,0.1213768740137113,Solid Tissue Normal,Colon,Colon Adenocarcinoma
+Prospective Colon PNNL Proteome Qeplus,8960a27e-69d8-4ec8-a795-c6cf8a_D3,-0.3861611397834861,-0.3788012134664043,Primary Tumor,Colon,Colon Adenocarcinoma
+Prospective Colon PNNL Proteome Qeplus,321fb3b2-ebb6-4ea5-b737-081264_D2,0.0995651121336597,0.098820777682478,Primary Tumor,Colon,Colon Adenocarcinoma
+Prospective Colon PNNL Proteome Qeplus,66b57abc-0d49-46bb-a390-0e11a9_D2,0.027195081659477,0.0231177169656219,Primary Tumor,Colon,Colon Adenocarcinoma
+Prospective Colon PNNL Proteome Qeplus,b4dd4a04-5eda-43dd-8298-215b07_D3,-0.1954901822986518,-0.1951076567523027,Primary Tumor,Colon,Colon Adenocarcinoma
+Prospective Colon PNNL Proteome Qeplus,a467b905-fc0b-427b-8753-6d38dd_D3,-0.463306188148111,-0.4664214966058208,Primary Tumor,Colon,Colon Adenocarcinoma
+Prospective Colon PNNL Proteome Qeplus,42216d99-e8ff-43c9-b6db-28c3a6_D3,0.380490756826195,0.3733039647340837,Primary Tumor,Colon,Colon Adenocarcinoma
+Prospective Colon PNNL Proteome Qeplus,e3c012aa-51c2-42b0-a478-bd620f_D2,0.3814719443137097,0.3796459764382379,Solid Tissue Normal,Colon,Colon Adenocarcinoma
+Prospective Colon PNNL Proteome Qeplus,963fc8db-f412-4427-a198-23f660_D2,-0.0657841226096018,-0.0643176707887469,Solid Tissue Normal,Colon,Colon Adenocarcinoma
+Prospective Colon PNNL Proteome Qeplus,58a92726-4d1f-4e44-8938-52b97d_D3,-0.118646658488721,-0.1167528169562907,Primary Tumor,Colon,Colon Adenocarcinoma
+Prospective Colon PNNL Proteome Qeplus,43192517-085e-450e-9481-0a6713_D3,-0.0659734725425301,-0.0695981557657393,Primary Tumor,Colon,Colon Adenocarcinoma
+Prospective Colon PNNL Proteome Qeplus,2d266d2d-4bb3-436c-a3e7-06acb2_D3,-0.1341412893307456,-0.140360381202759,Primary Tumor,Colon,Colon Adenocarcinoma
+Prospective Colon PNNL Proteome Qeplus,efee6bb9-69dd-46c2-85b3-b55962_D2,0.4483990022355259,0.4360552306448848,Solid Tissue Normal,Colon,Colon Adenocarcinoma
+Prospective Colon PNNL Proteome Qeplus,c65afd57-530c-4366-b2c8-463a46_D2,-0.1501379919064695,-0.148644481021271,Primary Tumor,Colon,Colon Adenocarcinoma
+Prospective Colon PNNL Proteome Qeplus,b6b41ba2-6415-41aa-b5f5-4d47db_D2,0.2838274255758461,0.2800022378866446,Solid Tissue Normal,Colon,Colon Adenocarcinoma
+Prospective Colon PNNL Proteome Qeplus,87b0e853-43ea-4efb-8a22-dd221f_D2,0.185056479139114,0.1810006228333733,Solid Tissue Normal,Colon,Colon Adenocarcinoma
+Prospective Colon PNNL Proteome Qeplus,2b810478-7956-4a8b-870d-184859_D2,-0.1815527144089791,-0.181219998158279,Primary Tumor,Colon,Colon Adenocarcinoma
+Prospective Colon PNNL Proteome Qeplus,79097be1-cd36-4a23-99d1-3d744f_D2,-0.0076532414750024,-0.0030375761228406,Primary Tumor,Colon,Colon Adenocarcinoma
+Prospective Colon PNNL Proteome Qeplus,591fb460-703a-437d-8d9a-ff2a35_D3,-0.1951002491520327,-0.1977945864424861,Primary Tumor,Colon,Colon Adenocarcinoma
+Prospective Colon PNNL Proteome Qeplus,01d1ffca-4235-4dfe-bf62-56f71d_D3,-0.4203990372431641,-0.4160579855159325,Primary Tumor,Colon,Colon Adenocarcinoma
+Prospective Colon PNNL Proteome Qeplus,65867ab1-5eab-44a8-b2bb-d27263_D2,0.4016661885664276,0.3962007546470358,Solid Tissue Normal,Colon,Colon Adenocarcinoma
+Prospective Colon PNNL Proteome Qeplus,02cde0c0-6840-495b-9b11-007d82_D2,0.5879641911401076,0.5816164217921993,Solid Tissue Normal,Colon,Colon Adenocarcinoma
+Prospective Colon PNNL Proteome Qeplus,4c9dcc8c-ccdc-4336-8e23-107feb_D2,0.4013304018404244,0.398586968417296,Solid Tissue Normal,Colon,Colon Adenocarcinoma
+Prospective Colon PNNL Proteome Qeplus,3d797911-d476-436f-9cce-33e20c_D8,-0.0441247717520003,-0.047606542595203,Primary Tumor,Colon,Colon Adenocarcinoma
+Prospective Colon PNNL Proteome Qeplus,a2f03d85-5f1a-4b3e-9dbf-74e67e_D3,0.069038620561273,0.065830552082957,Primary Tumor,Colon,Colon Adenocarcinoma
+Prospective Colon PNNL Proteome Qeplus,5557e478-3e6f-475b-8acc-1b4159_D8,-0.2404016618941933,-0.2427320125591793,Primary Tumor,Colon,Colon Adenocarcinoma
+Prospective Colon PNNL Proteome Qeplus,8b9e4266-7754-4f2c-ac9e-329905_D2,-0.7745007990731169,-0.77070076374856,Primary Tumor,Colon,Colon Adenocarcinoma
+Prospective Colon PNNL Proteome Qeplus,a90eb718-6a8f-4cbf-89c1-f9e9bd_D2,-0.3759604803607992,-0.3776130739423057,Primary Tumor,Colon,Colon Adenocarcinoma
+Prospective Colon PNNL Proteome Qeplus,a27cf22d-836e-49a7-802f-47c1db_D2,0.125874034631894,0.1304574671496693,Solid Tissue Normal,Colon,Colon Adenocarcinoma
+Prospective Colon PNNL Proteome Qeplus,059a7065-3a5f-4eea-97e5-85ab01_D2,0.328317067584248,0.3290862044580693,Solid Tissue Normal,Colon,Colon Adenocarcinoma
+Prospective Colon PNNL Proteome Qeplus,974e136f-7020-4a38-b9c1-094df9_D2,0.4445921505579304,0.4421849071534467,Solid Tissue Normal,Colon,Colon Adenocarcinoma
+Prospective Colon PNNL Proteome Qeplus,7fd2eea8-bf99-4f97-8b9e-fb703f_D2,0.2485126205586259,0.248720137640529,Solid Tissue Normal,Colon,Colon Adenocarcinoma
+Prospective Colon PNNL Proteome Qeplus,71b2c1cc-0a31-4ca8-8beb-251e17_D2,0.0807686638102693,0.0825297902398398,Solid Tissue Normal,Colon,Colon Adenocarcinoma
+Prospective Colon PNNL Proteome Qeplus,7fd386f0-e7f6-4ee1-9cd7-b3318a_D2,0.2697501240154196,0.2654652163294541,Solid Tissue Normal,Colon,Colon Adenocarcinoma
+Prospective Colon PNNL Proteome Qeplus,f6b1079b-9d67-4c63-b3d0-d562b5_D2,0.0771468662885051,0.0807541165219465,Primary Tumor,Colon,Colon Adenocarcinoma
+Prospective Colon PNNL Proteome Qeplus,642fc6c3-8d4a-4e3d-ad0a-cc088a_D2,-0.1301411039815806,-0.1226389298276907,Primary Tumor,Colon,Colon Adenocarcinoma
+Prospective Colon PNNL Proteome Qeplus,5a3aa99d-ca10-45f6-939f-12392a_D2,0.4047488707362402,0.3970801575534393,Solid Tissue Normal,Colon,Colon Adenocarcinoma
+Prospective Colon PNNL Proteome Qeplus,372c900a-fced-4eef-9dc4-7282ec_D2,0.2799225480504297,0.2863742851567269,Primary Tumor,Colon,Colon Adenocarcinoma
+Prospective Colon PNNL Proteome Qeplus,1563ef63-d2e6-406f-adc1-255949_D3,-0.0274854982268589,-0.0269937688998154,Primary Tumor,Colon,Colon Adenocarcinoma
+Prospective Colon PNNL Proteome Qeplus,903d5fe0-970a-47be-a97f-3cc914_D2,0.2428012678569794,0.2431014678781781,Solid Tissue Normal,Colon,Colon Adenocarcinoma
+Prospective Colon PNNL Proteome Qeplus,348f6009-e1be-44d2-a093-9ca844_D2,-0.0416839792192034,-0.0366158077416852,Solid Tissue Normal,Colon,Colon Adenocarcinoma
+Prospective Colon PNNL Proteome Qeplus,9bf309bc-0fb6-4060-aba2-888eb3_D2,-0.1549852800553636,-0.1503479024852783,Primary Tumor,Colon,Colon Adenocarcinoma
+Prospective Colon PNNL Proteome Qeplus,62627b73-1763-48bc-8eea-e5bd76_D2,0.307780318211474,0.2992754992776522,Solid Tissue Normal,Colon,Colon Adenocarcinoma
+Prospective Colon PNNL Proteome Qeplus,1425a1a1-c835-47a2-a9b9-4db5d0_D8,-0.2322231479751368,-0.2339098174439799,Primary Tumor,Colon,Colon Adenocarcinoma
+Prospective Colon PNNL Proteome Qeplus,e196a0b4-2a05-43de-bb30-ceb761_D2,-0.4168958783979999,-0.4150635865808918,Primary Tumor,Colon,Colon Adenocarcinoma
+Prospective Colon PNNL Proteome Qeplus,8fab37a4-cdf9-4ce8-9081-7b9148_D2,-0.3242158328768107,-0.3238091180371388,Solid Tissue Normal,Colon,Colon Adenocarcinoma
+Prospective Colon PNNL Proteome Qeplus,e14c2cbe-eca0-4745-97f6-8f27bd_D2,0.2544753775352099,0.2530601768677308,Solid Tissue Normal,Colon,Colon Adenocarcinoma
+Prospective Colon PNNL Proteome Qeplus,695b0b00-a86b-43c0-a6c8-50a840_D3,-0.1305253617827534,-0.1330603960518773,Primary Tumor,Colon,Colon Adenocarcinoma
+Prospective Colon PNNL Proteome Qeplus,c9730cb4-b52c-4ca8-9652-4509d0_D2,-0.2481568039224647,-0.2484190804801841,Primary Tumor,Colon,Colon Adenocarcinoma
+Prospective Colon PNNL Proteome Qeplus,803736b3-9ca9-4f9f-bdfe-8783e3_D3,-0.2539159754456762,-0.2497764495740907,Primary Tumor,Colon,Colon Adenocarcinoma
+Prospective Colon PNNL Proteome Qeplus,0630ecb0-b664-4e75-bb3c-fb62ee_D3,-0.047454252912974,-0.0428216744680717,Primary Tumor,Colon,Colon Adenocarcinoma
+Prospective Colon PNNL Proteome Qeplus,e2e83b72-b14b-4b06-9461-1115d6_D2,0.0276075949481848,0.0311185837676118,Primary Tumor,Colon,Colon Adenocarcinoma
+Prospective Colon PNNL Proteome Qeplus,d7608884-a0d6-4e9e-aac7-6cd813_D3,-0.2800117174999521,-0.2801217859457481,Primary Tumor,Colon,Colon Adenocarcinoma
+Prospective Colon PNNL Proteome Qeplus,54565eae-05c5-4dae-bde9-ae4874_D2,0.1055318158406349,0.1080773418091721,Solid Tissue Normal,Colon,Colon Adenocarcinoma
+Prospective Colon PNNL Proteome Qeplus,6797a69d-2f74-44b9-8147-cd4fac_D2,0.4416643898577207,0.44034893447612,Solid Tissue Normal,Colon,Colon Adenocarcinoma
+Prospective Colon PNNL Proteome Qeplus,359f5c81-2575-497e-8630-e4866f_D2,0.3449732046924105,0.3487537178413586,Solid Tissue Normal,Colon,Colon Adenocarcinoma
+Prospective Colon PNNL Proteome Qeplus,92f7419c-c57a-4b50-bdc9-4d09ca_D2,-0.3310078370923109,-0.3346287536207568,Primary Tumor,Colon,Colon Adenocarcinoma
+Prospective Colon PNNL Proteome Qeplus,5cf5e61d-21ff-4678-9126-14e9bb_D2,0.0694364512352911,0.069440609169989,Solid Tissue Normal,Colon,Colon Adenocarcinoma
+Prospective Colon PNNL Proteome Qeplus,7478980a-60fb-4f5e-aa1c-2d7941_D2,0.0891460990756446,0.0903896988963971,Solid Tissue Normal,Colon,Colon Adenocarcinoma
+Prospective Colon PNNL Proteome Qeplus,8980bb9d-65c1-41cb-9f90-dddd5f_D2,0.351266202418642,0.3486046639983554,Solid Tissue Normal,Colon,Colon Adenocarcinoma
+Prospective Colon PNNL Proteome Qeplus,aa0f5b40-3290-4255-8f4d-f45d4e_D3,-0.4941670756647317,-0.4994738814313923,Primary Tumor,Colon,Colon Adenocarcinoma
+Prospective Colon PNNL Proteome Qeplus,cfb4831f-e9ee-4e11-80fb-958f6f_D2,-0.1690609368729001,-0.1659461033539575,Primary Tumor,Colon,Colon Adenocarcinoma
+Prospective Colon PNNL Proteome Qeplus,f4bccfe4-98d0-466b-a6d7-44341b_D3,-0.2977119957002317,-0.2923853483747561,Primary Tumor,Colon,Colon Adenocarcinoma
+Prospective Colon PNNL Proteome Qeplus,ea6df59d-5240-4927-b19d-d44590_D2,0.5032531394823343,0.509970453944324,Primary Tumor,Colon,Colon Adenocarcinoma
+Prospective Colon PNNL Proteome Qeplus,da747cee-5026-4923-af63-ad9f81_D2,0.3972714981922508,0.3992021309999408,Solid Tissue Normal,Colon,Colon Adenocarcinoma
+Prospective Colon PNNL Proteome Qeplus,41ee934e-f7a3-4ef5-8a83-e2ac56_D2,-0.4396771498451945,-0.4432208920248934,Primary Tumor,Colon,Colon Adenocarcinoma
+Prospective Colon PNNL Proteome Qeplus,f5ed5ebc-881d-456a-80d7-42c9e7_D2,0.245155465205293,0.2410475381708261,Solid Tissue Normal,Colon,Colon Adenocarcinoma
+Prospective Colon PNNL Proteome Qeplus,5f823547-ee16-45b7-a6a0-ef25d6_D3,-0.0931244470088741,-0.0954486203024361,Primary Tumor,Colon,Colon Adenocarcinoma
+Prospective Colon PNNL Proteome Qeplus,b871c0c1-a97b-4ac1-887c-0317b6_D2,0.369477768335907,0.365670353606967,Solid Tissue Normal,Colon,Colon Adenocarcinoma
+Prospective Colon PNNL Proteome Qeplus,04ded2cd-3b57-4aec-9c11-48f58e_D2,0.5379969795715289,0.5311475926688751,Solid Tissue Normal,Colon,Colon Adenocarcinoma
+Prospective Colon PNNL Proteome Qeplus,4cdeecb5-19fb-493c-91f5-eb0efc_D3,-0.3596615735141435,-0.3605237666117514,Primary Tumor,Colon,Colon Adenocarcinoma
+Prospective Colon PNNL Proteome Qeplus,47d2a435-b203-4438-ae72-53c424_D2,0.4778642993132286,0.4790626636880207,Solid Tissue Normal,Colon,Colon Adenocarcinoma
+Prospective Colon PNNL Proteome Qeplus,e8faa3a7-9fc7-428e-9334-a0afd0_D3,0.1328313021672116,0.1387182167988899,Primary Tumor,Colon,Colon Adenocarcinoma
+Prospective Colon PNNL Proteome Qeplus,cd3a9d59-bf13-48f3-ae97-bdbca4_D2,0.2147960700173099,0.2124542299803764,Solid Tissue Normal,Colon,Colon Adenocarcinoma
+Prospective Colon PNNL Proteome Qeplus,1fbb1add-4660-4ec1-b8c2-360f9f_D2,0.2623528343688801,0.2575935691696861,Solid Tissue Normal,Colon,Colon Adenocarcinoma
+Prospective Colon PNNL Proteome Qeplus,cbd0e774-c741-4753-9c9e-391a7d_D2,0.1101880684016812,0.1084582998151236,Solid Tissue Normal,Colon,Colon Adenocarcinoma
+Prospective Colon PNNL Proteome Qeplus,0f238226-864c-4de0-8c61-01e729_D2,-0.5914655254714019,-0.5895751360893717,Primary Tumor,Colon,Colon Adenocarcinoma
+Prospective Colon PNNL Proteome Qeplus,cd6a4013-2958-44b9-a4f1-45c9e4_D2,-0.1567076031189941,-0.1556480882207174,Primary Tumor,Colon,Colon Adenocarcinoma
+Prospective Colon PNNL Proteome Qeplus,1c070992-647b-4173-a481-904c4d_D2,0.4560874466990745,0.4543464637974595,Solid Tissue Normal,Colon,Colon Adenocarcinoma
+Prospective Colon PNNL Proteome Qeplus,23e938d0-92b8-4aea-90c1-4385df_D2,0.2831043830124894,0.2792613429451928,Solid Tissue Normal,Colon,Colon Adenocarcinoma
+Prospective Colon PNNL Proteome Qeplus,51590333-cfe5-4ce5-b8ff-58fa3c_D2,0.2985081044682632,0.2922484654231897,Solid Tissue Normal,Colon,Colon Adenocarcinoma
+Prospective Colon PNNL Proteome Qeplus,b2978e90-cd2a-4665-b1bf-508a99_D2,0.2502811953895144,0.2471022778631144,Solid Tissue Normal,Colon,Colon Adenocarcinoma
+Prospective Colon PNNL Proteome Qeplus,c6ae57a7-65a0-438e-bae2-97b1c8_D3,-0.1223138680713462,-0.1106425497543198,Primary Tumor,Colon,Colon Adenocarcinoma
+Prospective Colon PNNL Proteome Qeplus,211cbcef-cb1f-4c80-a1c8-a76d3c_D2,0.4210138057067573,0.4160429568472675,Solid Tissue Normal,Colon,Colon Adenocarcinoma
+Prospective Colon PNNL Proteome Qeplus,1136008b-97ce-49b0-bf24-abbea6_D2,0.3966057096092029,0.3967831046888746,Solid Tissue Normal,Colon,Colon Adenocarcinoma
+Prospective Colon PNNL Proteome Qeplus,b605fafc-f7dd-44cc-9c86-da04e3_D2,-0.3947249581921881,-0.3872403061828889,Primary Tumor,Colon,Colon Adenocarcinoma
+Prospective Colon PNNL Proteome Qeplus,d80408d6-598d-4411-ab34-eb2545_D2,0.2814950373839812,0.2765485884103438,Solid Tissue Normal,Colon,Colon Adenocarcinoma
+Prospective Colon PNNL Proteome Qeplus,5de06adb-e00d-4114-8d76-04bd30_D2,0.3094738935206565,0.3041308039253743,Solid Tissue Normal,Colon,Colon Adenocarcinoma
+Prospective Colon PNNL Proteome Qeplus,76498650-fdbf-4f5d-a19a-cce9a2_D2,0.3163692783942501,0.3085931271714618,Solid Tissue Normal,Colon,Colon Adenocarcinoma
+Prospective Colon PNNL Proteome Qeplus,9a6879b1-4f78-4ac6-9fca-dad049_D2,0.3225765510300133,0.3174839319427187,Solid Tissue Normal,Colon,Colon Adenocarcinoma
+Prospective Colon PNNL Proteome Qeplus,e0068ac5-f557-443a-bd4b-bdfcef_D3,-0.1092412662732777,-0.1089595973566922,Primary Tumor,Colon,Colon Adenocarcinoma
+Prospective Colon PNNL Proteome Qeplus,05a33362-82bb-48ac-8feb-ad2ea1_D2,-0.2741704986891128,-0.2786439362056998,Primary Tumor,Colon,Colon Adenocarcinoma
+Prospective Colon PNNL Proteome Qeplus,377cdd37-d1bd-4042-997e-478a0f_D2,0.0084940423426822,0.0015507275320563,Solid Tissue Normal,Colon,Colon Adenocarcinoma
+Prospective Colon PNNL Proteome Qeplus,5347d2ce-df0c-4d81-a3e2-22db11_D2,0.2442642375204459,0.2406187604488465,Solid Tissue Normal,Colon,Colon Adenocarcinoma
+Prospective Colon PNNL Proteome Qeplus,2cc46aec-6142-4fb9-aca5-c442b9_D2,0.1266774864198231,0.1233848272925808,Solid Tissue Normal,Colon,Colon Adenocarcinoma
+Prospective Colon PNNL Proteome Qeplus,1ab06c24-ffc0-4323-a0cc-e9f5c5_D2,-0.2969202308196372,-0.2973468065323521,Primary Tumor,Colon,Colon Adenocarcinoma
+Prospective Colon PNNL Proteome Qeplus,26acb513-3ffe-49ad-8581-9dfc97_D2,0.03620373678397,0.0347028173015205,Solid Tissue Normal,Colon,Colon Adenocarcinoma
+Prospective Colon PNNL Proteome Qeplus,f6afe41c-111d-4818-8485-fe95e0_D2,-0.3754742340599258,-0.3805082165447116,Primary Tumor,Colon,Colon Adenocarcinoma
+Prospective Colon PNNL Proteome Qeplus,f6173181-0993-4a5f-a4cd-5f30b1_D2,-0.1880094009514327,-0.1926844735661976,Primary Tumor,Colon,Colon Adenocarcinoma
+Prospective Colon PNNL Proteome Qeplus,2167c594-c33f-4795-b95b-69bd07_D2,-0.1576596008435149,-0.1556900947243396,Primary Tumor,Colon,Colon Adenocarcinoma
+Prospective Colon PNNL Proteome Qeplus,206f3bd9-f62c-4663-8fdb-5b731b_D2,0.4822203213811271,0.484855129762816,Solid Tissue Normal,Colon,Colon Adenocarcinoma
+Prospective Colon PNNL Proteome Qeplus,233ec093-9a30-4ef4-a12c-91757e_D2,-0.0197337230381944,-0.0213225904872547,Solid Tissue Normal,Colon,Colon Adenocarcinoma
+Prospective Colon PNNL Proteome Qeplus,da95f6f8-be46-4ed8-a493-2c99f0_D2,0.3199492208251343,0.3151171651534355,Solid Tissue Normal,Colon,Colon Adenocarcinoma
+Prospective Colon PNNL Proteome Qeplus,7784e2e5-c0e1-4b85-8cc1-7faac8_D2,0.4755702009451014,0.4738170776194239,Solid Tissue Normal,Colon,Colon Adenocarcinoma
+Prospective Colon PNNL Proteome Qeplus,0aef1fe8-ca61-4113-81d0-d82ee7_D2,-0.2690278783797417,-0.2690235761077752,Primary Tumor,Colon,Colon Adenocarcinoma
+Prospective Colon PNNL Proteome Qeplus,c307b7b0-534a-45fa-a420-35f773_D2,0.5509194787901714,0.5516508136276461,Solid Tissue Normal,Colon,Colon Adenocarcinoma
+Prospective Colon PNNL Proteome Qeplus,b4e91300-405e-4239-b8da-5e1a42_D2,0.1977475269136621,0.1996517207598343,Primary Tumor,Colon,Colon Adenocarcinoma
+Prospective Colon PNNL Proteome Qeplus,bc574f73-89ba-44d7-992e-82622c_D3,0.0579598190061814,0.0627087110995357,Primary Tumor,Colon,Colon Adenocarcinoma
+Prospective Colon PNNL Proteome Qeplus,16ac8458-5200-4302-9ad0-b311df_D2,0.3468383691976949,0.3400689871054415,Solid Tissue Normal,Colon,Colon Adenocarcinoma
+Prospective Colon PNNL Proteome Qeplus,d6584b4a-ca99-4a2a-8b4e-c8b22e_D3,-0.0016510650901689,-0.0038124034691864,Primary Tumor,Colon,Colon Adenocarcinoma
+Prospective Colon PNNL Proteome Qeplus,0f757044-9bc8-4ed4-90f3-e0a49a_D3,-0.2908343962659272,-0.2900883422942681,Primary Tumor,Colon,Colon Adenocarcinoma
+Prospective Colon PNNL Proteome Qeplus,694e8df1-d9ee-473b-bec1-4f9237_D2,0.4358141137511419,0.4267652054103177,Solid Tissue Normal,Colon,Colon Adenocarcinoma
+Prospective Colon PNNL Proteome Qeplus,f69deaeb-6b6f-4c61-8900-fd0f26_D3,-0.1731711819275034,-0.1746825764564884,Primary Tumor,Colon,Colon Adenocarcinoma
+Prospective Colon PNNL Proteome Qeplus,a84149b1-8453-45f0-8400-d7b12f_D2,0.479566940883399,0.4767562404290616,Solid Tissue Normal,Colon,Colon Adenocarcinoma
+Prospective Colon PNNL Proteome Qeplus,5e886f1c-8165-4232-9591-d80799_D2,0.1762455379875932,0.1654696655302427,Solid Tissue Normal,Colon,Colon Adenocarcinoma
+Prospective Colon PNNL Proteome Qeplus,176d1b96-8c6e-44fe-8a32-e15194_D2,0.1765057361229989,0.1780456584603879,Solid Tissue Normal,Colon,Colon Adenocarcinoma
+Prospective Colon PNNL Proteome Qeplus,82157a70-12f1-4913-b548-d98881_D2,0.3454242683171252,0.3412769741879202,Solid Tissue Normal,Colon,Colon Adenocarcinoma
+Prospective Colon PNNL Proteome Qeplus,0784c7b3-e6a4-42a8-9288-eb4ba0_D2,0.2081093315946271,0.2065646234078951,Solid Tissue Normal,Colon,Colon Adenocarcinoma
+Prospective Colon PNNL Proteome Qeplus,db3f5ad9-d14d-4126-a3e7-d80faa_D3,-0.0250584274883112,-0.0276521626560349,Primary Tumor,Colon,Colon Adenocarcinoma
+Prospective Colon PNNL Proteome Qeplus,0c330883-ab58-4a5a-bff7-07d283_D2,0.1529556250378392,0.1462508978634163,Solid Tissue Normal,Colon,Colon Adenocarcinoma
+Prospective Colon PNNL Proteome Qeplus,6d9f8b06-f28c-4e9b-823b-33ebb7_D2,0.2444497864060125,0.2385427471232669,Solid Tissue Normal,Colon,Colon Adenocarcinoma
+Prospective Colon PNNL Proteome Qeplus,dffcac99-9eac-4717-aeb6-f4a2e7_D8,-0.1925991517126406,-0.1890450719675199,Primary Tumor,Colon,Colon Adenocarcinoma
+Prospective Colon PNNL Proteome Qeplus,cc271b3d-ed33-481f-9d23-15f2f6_D2,0.5105188711896353,0.5021222293700656,Solid Tissue Normal,Colon,Colon Adenocarcinoma
+Prospective Colon PNNL Proteome Qeplus,f9d6fb1b-988e-4D88-9272-cc672f_D8,-0.0644061991677433,-0.0643961058454597,Primary Tumor,Colon,Colon Adenocarcinoma
+Prospective Colon PNNL Proteome Qeplus,e515eb5c-8005-416a-9b42-59de9d_D8,-0.4977064369480507,-0.4948070607993737,Primary Tumor,Colon,Colon Adenocarcinoma
+Prospective Colon PNNL Proteome Qeplus,63c1f7ac-b1ae-4c28-95aa-ce21e5_D2,0.55895876726278,0.5577612602197505,Solid Tissue Normal,Colon,Colon Adenocarcinoma
+Prospective Colon PNNL Proteome Qeplus,64ed43a2-f083-43cb-9d0d-118495_D2,0.2828518768789815,0.2775469974251843,Solid Tissue Normal,Colon,Colon Adenocarcinoma
+Prospective Colon PNNL Proteome Qeplus,c9f0f144-47f3-4d64-b29f-bcedfa_D2,-0.1431278885817091,-0.1498216094530295,Solid Tissue Normal,Colon,Colon Adenocarcinoma
+Prospective Colon PNNL Proteome Qeplus,d3078fa8-0692-411f-8441-0c7c48_D8,-0.1226900123243754,-0.1261562943018649,Primary Tumor,Colon,Colon Adenocarcinoma
+Prospective Colon PNNL Proteome Qeplus,820a3f08-5bb1-44b3-a133-ee167e_D2,0.2302493224318239,0.2238246941238081,Primary Tumor,Colon,Colon Adenocarcinoma
+Prospective Colon PNNL Proteome Qeplus,5da00abd-5fa7-4deb-95f1-7982e0_D3,-0.1372602513411553,-0.1357478395303602,Primary Tumor,Colon,Colon Adenocarcinoma
+Prospective Colon PNNL Proteome Qeplus,df479b07-bbf6-472d-a580-c3fd0c_D2,0.4873216332842661,0.4859079640049136,Solid Tissue Normal,Colon,Colon Adenocarcinoma
+Prospective Colon PNNL Proteome Qeplus,2666323d-522f-4f0a-823c-ff8866_D2,1.0579764597357817,1.0547657860661066,Solid Tissue Normal,Colon,Colon Adenocarcinoma
+Prospective Colon PNNL Proteome Qeplus,799893aa-d523-4a08-9ea7-611cca_D3,-0.3876741374283719,-0.3838474741756636,Primary Tumor,Colon,Colon Adenocarcinoma
+Prospective Colon PNNL Proteome Qeplus,6e20c8e9-ab75-4996-9296-445b00_D2,-0.2721159736297247,-0.2757622463222585,Primary Tumor,Colon,Colon Adenocarcinoma
+Prospective Colon PNNL Proteome Qeplus,9a48cf57-e1f0-4ea1-9804-d563f2_D2,0.533447661966924,0.5316992200088381,Solid Tissue Normal,Colon,Colon Adenocarcinoma
+Prospective Colon PNNL Proteome Qeplus,7cc7f69f-99f5-4b23-a9e0-ba0dc8_D8,-0.8040766444265393,-0.8041919393341354,Primary Tumor,Colon,Colon Adenocarcinoma
+Prospective Colon PNNL Proteome Qeplus,37219a7c-6fe2-4684-a494-d0be08_D2,-0.1240858586373891,-0.1235703209400547,Primary Tumor,Colon,Colon Adenocarcinoma
+Prospective Colon PNNL Proteome Qeplus,bed27f66-ef3b-4868-b4ad-205018_D2,0.4653194583047027,0.4681162185217844,Solid Tissue Normal,Colon,Colon Adenocarcinoma
+Prospective Colon PNNL Proteome Qeplus,c2c53076-b5db-4b7d-983c-a35740_D3,0.053040479162776,0.0498031718174989,Primary Tumor,Colon,Colon Adenocarcinoma
+Prospective Colon PNNL Proteome Qeplus,4bb08fad-fa5e-471e-978b-6b09ab_D2,0.0041257401603604,8.036730316429708e-05,Primary Tumor,Colon,Colon Adenocarcinoma
+Prospective Colon PNNL Proteome Qeplus,8c73f3a5-fea8-4942-90c0-966f66_D3,0.127134940331145,0.1296064329741613,Primary Tumor,Colon,Colon Adenocarcinoma
+Prospective Colon PNNL Proteome Qeplus,41a04113-2061-4923-bca5-da586c_D2,0.5994065824089078,0.6038369516866005,Solid Tissue Normal,Colon,Colon Adenocarcinoma
+Prospective Colon PNNL Proteome Qeplus,c7aeb685-31b3-445e-8177-a3e729_D3,-0.5662926686637421,-0.574823387670367,Primary Tumor,Colon,Colon Adenocarcinoma
+Prospective Colon PNNL Proteome Qeplus,d0511ea6-43c3-4c61-b08e-cf49b7_D3,-0.0155126592663918,-0.020906106340083,Primary Tumor,Colon,Colon Adenocarcinoma
+Prospective Colon PNNL Proteome Qeplus,87408d9e-4029-4e8f-b14c-8efc04_D3,-0.3088278112039036,-0.3095370699454931,Primary Tumor,Colon,Colon Adenocarcinoma
+Prospective Colon PNNL Proteome Qeplus,5271982c-5de1-4d6e-b414-b1f3ef_D2,-0.4617613779513595,-0.4617409084576565,Primary Tumor,Colon,Colon Adenocarcinoma
+Prospective Colon PNNL Proteome Qeplus,3765c09a-fff7-4b37-bf2b-452b23_D2,0.5201010352820038,0.524045668122235,Solid Tissue Normal,Colon,Colon Adenocarcinoma
+Prospective Colon PNNL Proteome Qeplus,3e8019e8-125f-4615-a1fa-a448e9_D2,0.3013505006983558,0.2983552192238295,Solid Tissue Normal,Colon,Colon Adenocarcinoma
+Prospective Colon PNNL Proteome Qeplus,6b0a3188-d8ca-4d50-a377-a8fe4c_D2,0.1843005769187298,0.1781400056927406,Solid Tissue Normal,Colon,Colon Adenocarcinoma
+Prospective Colon PNNL Proteome Qeplus,88c621d7-7fb3-4825-abbe-82ae4c_D2,-0.0203111657728767,-0.0212663478936965,Solid Tissue Normal,Colon,Colon Adenocarcinoma
+Prospective Colon PNNL Proteome Qeplus,a313f6ef-5994-4d49-9e66-c26911_D2,0.4122816940456354,0.4087853677507057,Solid Tissue Normal,Colon,Colon Adenocarcinoma
+Prospective Colon PNNL Proteome Qeplus,cd89ffbb-574a-4052-bd9a-00c890_D2,0.6610255643577587,0.6635104761863811,Primary Tumor,Colon,Colon Adenocarcinoma
+Prospective Colon PNNL Proteome Qeplus,526c3664-5b9b-4a2b-a00e-a14623_D2,-0.1859673591031016,-0.1829352461110178,Primary Tumor,Colon,Colon Adenocarcinoma
+Prospective Colon PNNL Proteome Qeplus,4b263734-430f-41dc-a296-8691f0_D3,0.0525130246710428,0.0528385516020972,Primary Tumor,Colon,Colon Adenocarcinoma
+Prospective Colon PNNL Proteome Qeplus,46dfc1e4-0110-4d9f-888e-6a29ab_D2,0.3397729025162622,0.3400867437579619,Solid Tissue Normal,Colon,Colon Adenocarcinoma
+Prospective Colon PNNL Proteome Qeplus,411d9597-c785-4de5-b449-29a80d_D2,-0.143316162933885,-0.1393984383494653,Solid Tissue Normal,Colon,Colon Adenocarcinoma
+Prospective Colon PNNL Proteome Qeplus,2f8b02e4-1848-4abc-a95e-dd9eb5_D3,0.0280867190690373,0.0293479633488094,Primary Tumor,Colon,Colon Adenocarcinoma
+Prospective Colon PNNL Proteome Qeplus,c8694e31-2c8f-4eb6-a7ef-a137d9_D3,-0.0929464086960373,-0.0987779666321882,Primary Tumor,Colon,Colon Adenocarcinoma
+Prospective Colon PNNL Proteome Qeplus,067db520-1b1f-4569-9414-e37a6e_D2,0.556873387113036,0.558596942383567,Solid Tissue Normal,Colon,Colon Adenocarcinoma
+Prospective Colon PNNL Proteome Qeplus,019cd0c0-733d-4b25-90e3-d54ce0_D2,0.4872820107703254,0.4805337186141079,Solid Tissue Normal,Colon,Colon Adenocarcinoma
+Prospective Colon PNNL Proteome Qeplus,POOL,0.0005925679177367,0.0008481426108846,,,
+Prospective Colon PNNL Proteome Qeplus,c1b66358-d103-493c-b8ec-92c43b_D1,0.3281351860988028,0.3350760798227485,Primary Tumor,Colon,Colon Adenocarcinoma
+Prospective Colon PNNL Proteome Qeplus,7bdfa5c9-d11f-4600-9c44-a87996_D2,0.2461158104090731,0.2409513862525852,Solid Tissue Normal,Colon,Colon Adenocarcinoma
+Prospective Colon PNNL Proteome Qeplus,515040a4-bbfb-4a15-9e53-e7b6e6_D2,0.1799596724848253,0.189711440392254,Solid Tissue Normal,Colon,Colon Adenocarcinoma
+Prospective Colon PNNL Proteome Qeplus,6e0d04fc-e6a8-41ed-b6f3-45537d_D2,-0.0824644028863977,-0.0879530493026972,Solid Tissue Normal,Colon,Colon Adenocarcinoma
+Prospective Colon PNNL Proteome Qeplus,0d5554d1-1653-4589-a44f-43113e_D2,0.1661818007559408,0.1614363829353981,Solid Tissue Normal,Colon,Colon Adenocarcinoma
+Prospective Colon PNNL Proteome Qeplus,1bf00d93-240f-47e8-8055-f546b0_D2,0.2805069610816797,0.2721353861152875,Solid Tissue Normal,Colon,Colon Adenocarcinoma
+Prospective Colon PNNL Proteome Qeplus,1f79fed9-f0d4-4c45-acd2-ea1441_D2,0.4618302643433717,0.4490569626831107,Solid Tissue Normal,Colon,Colon Adenocarcinoma
+Prospective Colon PNNL Proteome Qeplus,fc9b09af-23b8-4ffe-b6c6-41236d_D2,0.4820701061001248,0.4811723747273501,Solid Tissue Normal,Colon,Colon Adenocarcinoma
+Prospective Ovarian JHU Proteome,7c7ce2d7-6c8a-424e-8e6c-d14ad1_D2,0.364875008971621,0.3516339425804317,Primary Tumor,Ovary,Ovarian Serous Cystadenocarcinoma
+Prospective Ovarian JHU Proteome,51c1c79e-5a8e-4b0a-bf92-1c0cab_D2,-0.1556248398019899,-0.1559377526903142,Primary Tumor,Ovary,Ovarian Serous Cystadenocarcinoma
+Prospective Ovarian JHU Proteome,46c73531-f531-4ec3-97fe-b39d9d_D2,-0.0437497602510067,-0.0473406210318717,Primary Tumor,Ovary,Ovarian Serous Cystadenocarcinoma
+Prospective Ovarian JHU Proteome,161317f3-1a39-438e-af45-cd2502_D2,-0.449279013247593,-0.4513655310816593,Primary Tumor,Ovary,Ovarian Serous Cystadenocarcinoma
+Prospective Ovarian JHU Proteome,9a7a86d3-bbf2-4d36-941d-c75c03_D1_D2,0.2813794806987423,0.2720044335441457,Primary Tumor,Ovary,Ovarian Serous Cystadenocarcinoma
+Prospective Ovarian JHU Proteome,7edfd606-4bee-4529-9fec-1ca7f0_D2,0.16551679805826,0.1638510021139952,Solid Tissue Normal,Ovary,Ovarian Serous Cystadenocarcinoma
+Prospective Ovarian JHU Proteome,efc971f8-54c5-4531-a792-705ecf_D2,0.4221611772550405,0.4230352928059599,Primary Tumor,Ovary,Ovarian Serous Cystadenocarcinoma
+Prospective Ovarian JHU Proteome,ce1e5dfc-2ef1-4633-af93-5ea4d9_D2,-0.1270136669354151,-0.1279197780222808,Primary Tumor,Ovary,Ovarian Serous Cystadenocarcinoma
+Prospective Ovarian JHU Proteome,3dcf8b3c-c0c5-4dfa-9543-5d30fb_D2,-0.3467504775262438,-0.3453918342257535,Primary Tumor,Ovary,Ovarian Serous Cystadenocarcinoma
+Prospective Ovarian JHU Proteome,8e17b45e-6a06-4e4e-913d-7b1edb_D2,0.5706430917317806,0.5768616975855314,Primary Tumor,Ovary,Ovarian Serous Cystadenocarcinoma
+Prospective Ovarian JHU Proteome,QC5,-0.3352223641119185,-0.3387322868008126,Not Reported,Not Reported,Other
+Prospective Ovarian JHU Proteome,b22659b9-e12c-4725-a7db-a833de_D1_D2,-0.0304584260674856,-0.04992362032532,Solid Tissue Normal,Ovary,Ovarian Serous Cystadenocarcinoma
+Prospective Ovarian JHU Proteome,3490835c-c004-45ed-91f3-7c206f_D2,0.6225266549056439,0.6222416152775087,Primary Tumor,Ovary,Ovarian Serous Cystadenocarcinoma
+Prospective Ovarian JHU Proteome,a03d1103-b809-42c4-ad5c-5aff58_D2,1.2992945213053884,1.303247151211098,Primary Tumor,Ovary,Ovarian Serous Cystadenocarcinoma
+Prospective Ovarian JHU Proteome,50997c44-1c8b-4d34-b535-4a6cc2_D2,0.301573241870211,0.302613397991417,Primary Tumor,Ovary,Ovarian Serous Cystadenocarcinoma
+Prospective Ovarian JHU Proteome,69d552be-7cb2-4bb4-b602-a27b3e_D2,0.3552781247249748,0.3547116388847464,Primary Tumor,Ovary,Ovarian Serous Cystadenocarcinoma
+Prospective Ovarian JHU Proteome,6e209757-a7f4-45af-b5f3-2ebc02_D2,0.1647894945174007,0.158400016901072,Solid Tissue Normal,Ovary,Ovarian Serous Cystadenocarcinoma
+Prospective Ovarian JHU Proteome,0cc794c3-5bf5-4621-b238-58a0f6_D2,0.2658938944091302,0.2765433275352901,Primary Tumor,Ovary,Ovarian Serous Cystadenocarcinoma
+Prospective Ovarian JHU Proteome,fbb41c94-aabd-49cc-90b2-882c3e_D2,-0.0440969025676205,-0.037926002586961,Primary Tumor,Ovary,Ovarian Serous Cystadenocarcinoma
+Prospective Ovarian JHU Proteome,3d3e1888-d67e-4c69-ba83-112d0f_D2,0.502202773821842,0.5051130477595559,Primary Tumor,Ovary,Ovarian Serous Cystadenocarcinoma
+Prospective Ovarian JHU Proteome,3fbf076a-824b-4eac-b6dc-bf5e59_D2,0.0555555579782796,0.0425191316705655,Solid Tissue Normal,Ovary,Ovarian Serous Cystadenocarcinoma
+Prospective Ovarian JHU Proteome,6530147a-efe9-4df6-ac2f-03ece3_D2,0.4506452072437167,0.4517016684568236,Primary Tumor,Ovary,Ovarian Serous Cystadenocarcinoma
+Prospective Ovarian JHU Proteome,bd266bdd-12e4-42cb-9c49-911bfc_D2,0.5683713810278,0.5715784399433467,Primary Tumor,Ovary,Ovarian Serous Cystadenocarcinoma
+Prospective Ovarian JHU Proteome,1556af7e-c2ae-4fce-9aae-87c459_D1_D2,0.2442651227788532,0.2272768753470975,Solid Tissue Normal,Ovary,Ovarian Serous Cystadenocarcinoma
+Prospective Ovarian JHU Proteome,QC6,-0.3047903905928188,-0.309907226272953,Not Reported,Not Reported,Other
+Prospective Ovarian JHU Proteome,1a10c200-3895-4648-b951-94f99f_D2,0.4741292151366067,0.4838196822594514,Primary Tumor,Ovary,Ovarian Serous Cystadenocarcinoma
+Prospective Ovarian JHU Proteome,a8853382-b726-4ce8-98d5-ca89df_D2,0.7940172613436105,0.8033013528193699,Primary Tumor,Ovary,Ovarian Serous Cystadenocarcinoma
+Prospective Ovarian JHU Proteome,08296da7-70ea-44df-8646-09f2cc_D2,-0.0187783435449657,-0.0237012550132835,Primary Tumor,Ovary,Ovarian Serous Cystadenocarcinoma
+Prospective Ovarian JHU Proteome,eb0a53df-7620-4024-8d2d-051142_D2,0.3507027942266734,0.35265590727735,Primary Tumor,Ovary,Ovarian Serous Cystadenocarcinoma
+Prospective Ovarian JHU Proteome,41d0619e-b299-42e2-ac32-29e784_D2,0.4457021732777004,0.4494224708131561,Primary Tumor,Ovary,Ovarian Serous Cystadenocarcinoma
+Prospective Ovarian JHU Proteome,2115808b-6a0d-49bc-a8d7-b83bde_D2,0.448906544652728,0.4577394333729374,Primary Tumor,Ovary,Ovarian Serous Cystadenocarcinoma
+Prospective Ovarian JHU Proteome,2dc28da8-7ff1-4b9b-b5bd-17cc25_D2,0.7232943842064807,0.7300994298372867,Primary Tumor,Ovary,Ovarian Serous Cystadenocarcinoma
+Prospective Ovarian JHU Proteome,fe83e13f-9754-403b-8f74-d6caf8_D2,0.4821066041845792,0.4853829213209977,Primary Tumor,Ovary,Ovarian Serous Cystadenocarcinoma
+Prospective Ovarian JHU Proteome,a65d8e76-640f-4341-a561-afbb57_D2,0.4291002411832424,0.4134823977422491,Solid Tissue Normal,Ovary,Ovarian Serous Cystadenocarcinoma
+Prospective Ovarian JHU Proteome,8d78194e-fbef-4819-a7b5-b73ae9_D2,0.3343196358166225,0.3367056408663388,Primary Tumor,Ovary,Ovarian Serous Cystadenocarcinoma
+Prospective Ovarian JHU Proteome,1db5574d-aca7-403c-8100-6e705f_D2,0.2972067538703226,0.2811287421302408,Solid Tissue Normal,Ovary,Ovarian Serous Cystadenocarcinoma
+Prospective Ovarian JHU Proteome,2f901c90-617e-46da-9fac-d68369_D2,0.2879903931667405,0.2976998705646233,Primary Tumor,Ovary,Ovarian Serous Cystadenocarcinoma
+Prospective Ovarian JHU Proteome,27f3ca2d-a86f-479d-8e7e-5307c7_D2,0.2631702187168216,0.2685169303726065,Primary Tumor,Ovary,Ovarian Serous Cystadenocarcinoma
+Prospective Ovarian JHU Proteome,QC4,-0.2770828945123793,-0.2871179276242759,Not Reported,Not Reported,Other
+Prospective Ovarian JHU Proteome,3e746bea-ed68-40e6-b348-6ddf08_D2,0.2963545836262246,0.2825551670619934,Solid Tissue Normal,Ovary,Ovarian Serous Cystadenocarcinoma
+Prospective Ovarian JHU Proteome,2563cb02-d58a-4286-8634-7502cd_D2,0.7161862863435476,0.719767879560762,Primary Tumor,Ovary,Ovarian Serous Cystadenocarcinoma
+Prospective Ovarian JHU Proteome,347e379b-77c0-4dd3-aa25-18c9d1_D2,0.3339679332028523,0.3399313869814302,Primary Tumor,Ovary,Ovarian Serous Cystadenocarcinoma
+Prospective Ovarian JHU Proteome,a3a26070-fb84-406a-8280-d555e6_D2,0.8471167421373444,0.8251896400761137,Solid Tissue Normal,Ovary,Ovarian Serous Cystadenocarcinoma
+Prospective Ovarian JHU Proteome,0c87932d-b6fd-4eb5-b86a-a34d07_D2,-0.6032820027529116,-0.5934007288451845,Primary Tumor,Ovary,Ovarian Serous Cystadenocarcinoma
+Prospective Ovarian JHU Proteome,c17b0ff9-9057-4848-a0cc-abb25f_D2,0.2440408811348448,0.2368181761292797,Primary Tumor,Ovary,Ovarian Serous Cystadenocarcinoma
+Prospective Ovarian JHU Proteome,2b73e01c-347a-4dae-a71d-752aeb_D2,-0.1686211419171328,-0.1840098001897638,Solid Tissue Normal,Ovary,Ovarian Serous Cystadenocarcinoma
+Prospective Ovarian JHU Proteome,d4791079-c826-4fc7-9d9b-ee20ba_D2,0.6088521632113802,0.5984982948616847,Primary Tumor,Ovary,Ovarian Serous Cystadenocarcinoma
+Prospective Ovarian JHU Proteome,1b2ab076-c72f-4bbe-b9f9-657d24_D2,0.2082217013449622,0.2069484459503765,Primary Tumor,Ovary,Ovarian Serous Cystadenocarcinoma
+Prospective Ovarian JHU Proteome,2224c03f-b7b1-4368-887e-2b4cdf_D2,0.2695294896785434,0.2717258297203445,Primary Tumor,Ovary,Ovarian Serous Cystadenocarcinoma
+Prospective Ovarian JHU Proteome,d38f40fb-dd78-43b2-8b7b-4b6977_D2,0.2720299227618475,0.2697516990956861,Primary Tumor,Ovary,Ovarian Serous Cystadenocarcinoma
+Prospective Ovarian JHU Proteome,d109a3c0-350e-47f5-bda0-61899c_D2,-0.2584376589639547,-0.2622998064028133,Primary Tumor,Ovary,Ovarian Serous Cystadenocarcinoma
+Prospective Ovarian JHU Proteome,e9d416e7-f661-400a-896e-388545_D2,0.8569477798620868,0.8599953308753164,Primary Tumor,Ovary,Ovarian Serous Cystadenocarcinoma
+Prospective Ovarian JHU Proteome,318d53c3-216b-4de1-a098-77d6dd_D2,0.428022324306728,0.4234904594307269,Primary Tumor,Ovary,Ovarian Serous Cystadenocarcinoma
+Prospective Ovarian JHU Proteome,685ec3c2-e67a-40d3-9eb3-aa01c9_D1_D2,0.5293845752316185,0.5099663617805706,Solid Tissue Normal,Ovary,Ovarian Serous Cystadenocarcinoma
+Prospective Ovarian JHU Proteome,21efd60f-6a31-4b98-9477-16a905_D2,-0.1155699650991499,-0.1245051330352917,Solid Tissue Normal,Ovary,Ovarian Serous Cystadenocarcinoma
+Prospective Ovarian JHU Proteome,e6850782-fd2a-4c53-b682-1852fe_D2,-0.2781899937395383,-0.2897088570721582,Primary Tumor,Ovary,Ovarian Serous Cystadenocarcinoma
+Prospective Ovarian JHU Proteome,2b4ce90c-8036-4207-ac3e-54a76f_D2,0.9124401610688108,0.9119123326115418,Primary Tumor,Ovary,Ovarian Serous Cystadenocarcinoma
+Prospective Ovarian JHU Proteome,eb3f3494-7057-4afe-b212-e6e9a3_D2,-0.0294464786256318,-0.0232870809326811,Primary Tumor,Ovary,Ovarian Serous Cystadenocarcinoma
+Prospective Ovarian JHU Proteome,80873a0c-1f40-4d51-bab1-3f2071_D2,-0.0327703577433514,-0.0351576599284229,Primary Tumor,Ovary,Ovarian Serous Cystadenocarcinoma
+Prospective Ovarian JHU Proteome,74a45e5a-a35a-4c60-a4b4-f3f5ea_D2,-0.5416379379954379,-0.536629833811856,Primary Tumor,Ovary,Ovarian Serous Cystadenocarcinoma
+Prospective Ovarian JHU Proteome,5c3971ee-87c7-4dff-b66e-f18892_D2,0.0014278162357048,0.0053682647748916,Primary Tumor,Ovary,Ovarian Serous Cystadenocarcinoma
+Prospective Ovarian JHU Proteome,QC8,-0.2065160423582801,-0.2146499216628943,Not Reported,Not Reported,Other
+Prospective Ovarian JHU Proteome,927f0958-db5a-4bc5-92b7-2a3695_D2,0.6244851477157632,0.623421221649611,Primary Tumor,Ovary,Ovarian Serous Cystadenocarcinoma
+Prospective Ovarian JHU Proteome,9e0d47e0-f633-468b-b82b-4d752d_D2,-0.4306773898646602,-0.4349460973458264,Primary Tumor,Ovary,Ovarian Serous Cystadenocarcinoma
+Prospective Ovarian JHU Proteome,76e77c6b-c80e-4391-bdbb-e1dcea_D2,0.0060201744174215,0.0131191587453993,Primary Tumor,Ovary,Ovarian Serous Cystadenocarcinoma
+Prospective Ovarian JHU Proteome,10c2d629-0287-4511-ac25-f29031_D2,-0.2563238810936263,-0.2532682603708396,Primary Tumor,Ovary,Ovarian Serous Cystadenocarcinoma
+Prospective Ovarian JHU Proteome,61f76fe6-a1c6-41b8-bdc2-2f9209_D2,0.4427214549985968,0.4315993187028662,Solid Tissue Normal,Ovary,Ovarian Serous Cystadenocarcinoma
+Prospective Ovarian JHU Proteome,9b90eb78-2f50-4aeb-b010-d642f9_D2,0.2561152173547438,0.2519809823690298,Primary Tumor,Ovary,Ovarian Serous Cystadenocarcinoma
+Prospective Ovarian JHU Proteome,1abbcb28-f221-4cd4-8c01-37b9bb_D1_D2,0.0402460398169934,0.0124158687614204,Solid Tissue Normal,Ovary,Ovarian Serous Cystadenocarcinoma
+Prospective Ovarian JHU Proteome,f6c215ea-5381-4521-bb61-be8e97_D2,-0.1797749615245094,-0.1820292596965158,Primary Tumor,Ovary,Ovarian Serous Cystadenocarcinoma
+Prospective Ovarian JHU Proteome,15524912-685a-47ce-a824-567848_D2,0.0822990135993987,0.0754743428747003,Primary Tumor,Ovary,Ovarian Serous Cystadenocarcinoma
+Prospective Ovarian JHU Proteome,3946a96c-e0ae-442f-83b4-a9350e_D2,-0.0717486162798062,-0.0730543293957617,Primary Tumor,Ovary,Ovarian Serous Cystadenocarcinoma
+Prospective Ovarian JHU Proteome,QC7,-0.3002565767034581,-0.3090213767625238,Not Reported,Not Reported,Other
+Prospective Ovarian JHU Proteome,a583d3ff-8165-43e9-b764-23b7ef_D1_D2,0.1624262174385728,0.1549046268411129,Solid Tissue Normal,Ovary,Ovarian Serous Cystadenocarcinoma
+Prospective Ovarian JHU Proteome,4ccb249a-6722-491e-97e9-e3b4e7_D2,0.4471217880056293,0.4458179153470751,Primary Tumor,Ovary,Ovarian Serous Cystadenocarcinoma
+Prospective Ovarian JHU Proteome,2ed8beb2-bc63-4bad-b5fe-1916a0_D2,-0.1781112831083926,-0.1625409743823047,Primary Tumor,Ovary,Ovarian Serous Cystadenocarcinoma
+Prospective Ovarian JHU Proteome,5ea22f5e-307b-491d-801f-8b7fa6_D2,0.2634245333006438,0.269806977286178,Primary Tumor,Ovary,Ovarian Serous Cystadenocarcinoma
+Prospective Ovarian JHU Proteome,28d0abdb-f682-4bd3-9425-a9c508_D2,0.3508605680447011,0.3533129226138855,Primary Tumor,Ovary,Ovarian Serous Cystadenocarcinoma
+Prospective Ovarian JHU Proteome,7d953d1d-84b6-4ecd-b1d7-1ed865_D2,0.2075256330990376,0.2115764448219443,Primary Tumor,Ovary,Ovarian Serous Cystadenocarcinoma
+Prospective Ovarian JHU Proteome,994f9b8e-46cb-413f-8ec8-2c2fed_D2,0.4552708976349946,0.4429769962388734,Solid Tissue Normal,Ovary,Ovarian Serous Cystadenocarcinoma
+Prospective Ovarian JHU Proteome,91b287fd-eadb-442d-abcd-20b741_D2,1.1473711418240993,1.1445500085606732,Primary Tumor,Ovary,Ovarian Serous Cystadenocarcinoma
+Prospective Ovarian JHU Proteome,558333b0-ea23-4303-9e3c-4932b1_D2,1.1659811988037796,1.1755553579661324,Primary Tumor,Ovary,Ovarian Serous Cystadenocarcinoma
+Prospective Ovarian JHU Proteome,092af714-b97a-457c-b0e9-8c20e8_D2,0.9658073147427904,0.954691467711245,Solid Tissue Normal,Ovary,Ovarian Serous Cystadenocarcinoma
+Prospective Ovarian JHU Proteome,62f5840e-6cd7-4200-b651-645e53_D2,0.8906694654864593,0.896650143490945,Primary Tumor,Ovary,Ovarian Serous Cystadenocarcinoma
+Prospective Ovarian JHU Proteome,285fed94-1495-448e-879b-b55de9_D2,0.1464136333854862,0.1453403565389136,Primary Tumor,Ovary,Ovarian Serous Cystadenocarcinoma
+Prospective Ovarian JHU Proteome,6319b36b-533c-4e86-8e12-80552e_D3,-0.1049594226582462,-0.1160870959318824,Primary Tumor,Ovary,Ovarian Serous Cystadenocarcinoma
+Prospective Ovarian JHU Proteome,0745488e-0bfb-4d1f-8228-dedf76_D1_D2,0.2835325097462733,0.2728250417898661,Solid Tissue Normal,Ovary,Ovarian Serous Cystadenocarcinoma
+Prospective Ovarian JHU Proteome,e7b656bf-3c34-4ba1-bdf3-c7eefe_D2,0.1569407988908582,0.1530390082387597,Primary Tumor,Ovary,Ovarian Serous Cystadenocarcinoma
+Prospective Ovarian JHU Proteome,52c064a7-78d9-4a1a-85b4-27c6d1_D2,0.4470949413458879,0.4546262622490105,Primary Tumor,Ovary,Ovarian Serous Cystadenocarcinoma
+Prospective Ovarian JHU Proteome,QC1,-0.087029558058503,-0.0926027374872494,Not Reported,Not Reported,Other
+Prospective Ovarian JHU Proteome,af95e2c6-25c4-4ab8-bf06-3e15ff_D2,0.0840682894695375,0.0911213749699185,Primary Tumor,Ovary,Ovarian Serous Cystadenocarcinoma
+Prospective Ovarian JHU Proteome,9c8e78bf-b03e-4ba0-9909-5ff070_D2,0.4016249254081643,0.4005787727035851,Primary Tumor,Ovary,Ovarian Serous Cystadenocarcinoma
+Prospective Ovarian JHU Proteome,e3ebe010-cd31-4b5d-8fcb-b7103b_D2,-0.4158940340361786,-0.4121432206727981,Primary Tumor,Ovary,Ovarian Serous Cystadenocarcinoma
+Prospective Ovarian JHU Proteome,627e6e36-3dca-4ee5-9755-6f3510_D2,0.3294039113516715,0.3349834779041836,Primary Tumor,Ovary,Ovarian Serous Cystadenocarcinoma
+Prospective Ovarian JHU Proteome,QC9,-0.3049826058072378,-0.3082344045165972,Cell Lines,Not Reported,Other
+Prospective Ovarian JHU Proteome,31c15e30-21d4-4843-bd4a-9cd0d8_D2,0.2882277431048501,0.2741946221602411,Solid Tissue Normal,Ovary,Ovarian Serous Cystadenocarcinoma
+Prospective Ovarian JHU Proteome,cfd76f9a-ce60-4ec7-8e6b-a8fc31_D3,0.2838309400957063,0.2810651487270572,Primary Tumor,Ovary,Ovarian Serous Cystadenocarcinoma
+Prospective Ovarian JHU Proteome,42d860a3-8a0c-4c44-a09a-9ad8cf_D2,0.1364929730003856,0.1425506018850245,Primary Tumor,Ovary,Ovarian Serous Cystadenocarcinoma
+Prospective Ovarian JHU Proteome,256ac9f5-1e19-44b4-92fb-fef3fc_D2,1.1425263340240723,1.1490325142044422,Primary Tumor,Ovary,Ovarian Serous Cystadenocarcinoma
+Prospective Ovarian JHU Proteome,7069e990-4a4e-4984-a66d-4d835a_D2,-0.2602456661597509,-0.2602548211965529,Primary Tumor,Ovary,Ovarian Serous Cystadenocarcinoma
+Prospective Ovarian JHU Proteome,05387aad-2a1f-42c2-8d6f-950598_D3,0.2076774042289974,0.196466449114539,Primary Tumor,Ovary,Ovarian Serous Cystadenocarcinoma
+Prospective Ovarian JHU Proteome,35a345a4-e954-4c81-ae3f-7797cd_D2,-0.4681470549871477,-0.470491962121914,Primary Tumor,Ovary,Ovarian Serous Cystadenocarcinoma
+Prospective Ovarian JHU Proteome,QC3,-0.3866138668194888,-0.3935378541909841,Not Reported,Not Reported,Other
+Prospective Ovarian JHU Proteome,8ed739dd-ae0f-4881-971a-db3cf4_D1_D2,0.0217043794805358,0.0080762113074768,Solid Tissue Normal,Ovary,Ovarian Serous Cystadenocarcinoma
+Prospective Ovarian JHU Proteome,e23eb014-69c1-460a-b9d4-9786c8_D2,0.2893885336387505,0.2735996295863242,Solid Tissue Normal,Ovary,Ovarian Serous Cystadenocarcinoma
+Prospective Ovarian JHU Proteome,1c9145ad-1981-4871-aa7e-8b11de_D2,-0.3602946490842309,-0.3599419336171632,Primary Tumor,Ovary,Ovarian Serous Cystadenocarcinoma
+Prospective Ovarian JHU Proteome,1772e913-f62e-446a-8cf3-720348_D2,0.1724404296890608,0.1757595806843577,Primary Tumor,Ovary,Ovarian Serous Cystadenocarcinoma
+Prospective Ovarian JHU Proteome,1de8d3d8-fc0e-4be0-8aa7-127c7b_D2,0.2723055055558099,0.2741382334506499,Primary Tumor,Ovary,Ovarian Serous Cystadenocarcinoma
+Prospective Ovarian JHU Proteome,2433b136-fc7b-4cea-b958-bc6efb_D2,0.524874102529827,0.5352660013110537,Primary Tumor,Ovary,Ovarian Serous Cystadenocarcinoma
+Prospective Ovarian JHU Proteome,QC2,-0.2352081443351081,-0.2430277140149659,Not Reported,Not Reported,Other
+Prospective Ovarian JHU Proteome,51a4ce2f-4166-4c6b-a7e0-942d0a_D2,0.2752706523123115,0.2787929731497894,Primary Tumor,Ovary,Ovarian Serous Cystadenocarcinoma
+Prospective Ovarian JHU Proteome,8234f8ea-bdbd-45b0-bd0b-16f1e7_D2,0.469117561572494,0.4679014194364279,Primary Tumor,Ovary,Ovarian Serous Cystadenocarcinoma
+Prospective Ovarian JHU Proteome,49bd51fe-48a1-4828-b66e-b30c38_D2,0.5442349128996106,0.5479908931544905,Primary Tumor,Ovary,Ovarian Serous Cystadenocarcinoma
+Prospective Ovarian JHU Proteome,3a380577-c134-47ba-a1ce-988d7c_D2,0.7350227844695039,0.7410844711339308,Primary Tumor,Ovary,Ovarian Serous Cystadenocarcinoma
+Prospective Ovarian JHU Proteome,79b60f32-6cca-4cb6-9a1e-22a3ac_D2,0.3721527373347488,0.3737361805554211,Primary Tumor,Ovary,Ovarian Serous Cystadenocarcinoma
+Prospective Ovarian JHU Proteome,340a3769-3031-41ae-bb08-a2f696_D2,0.7641257339000807,0.7511297609612329,Solid Tissue Normal,Ovary,Ovarian Serous Cystadenocarcinoma
+Prospective Ovarian JHU Proteome,b9c1f22e-61f7-45ed-b3b4-5094c7_D2,0.3706321603929737,0.3536436843107881,Solid Tissue Normal,Ovary,Ovarian Serous Cystadenocarcinoma
+Prospective Ovarian PNNL Proteome Qeplus,0c87932d-b6fd-4eb5-b86a-a34d07_D5,-0.3564641451905644,-0.3429347310313747,Primary Tumor,Ovary,Ovarian Serous Cystadenocarcinoma
+Prospective Ovarian PNNL Proteome Qeplus,7069e990-4a4e-4984-a66d-4d835a_D5,-0.4397637324001335,-0.442098021729791,Primary Tumor,Ovary,Ovarian Serous Cystadenocarcinoma
+Prospective Ovarian PNNL Proteome Qeplus,JHU-QC.1,-0.4203490713126055,-0.4248901092931068,,,
+Prospective Ovarian PNNL Proteome Qeplus,7c7ce2d7-6c8a-424e-8e6c-d14ad1_D5,-0.1503696257566491,-0.1465970918101627,Primary Tumor,Ovary,Ovarian Serous Cystadenocarcinoma
+Prospective Ovarian PNNL Proteome Qeplus,41d0619e-b299-42e2-ac32-29e784_D5,-0.1019035610571449,-0.0997974240360502,Primary Tumor,Ovary,Ovarian Serous Cystadenocarcinoma
+Prospective Ovarian PNNL Proteome Qeplus,1abbcb28-f221-4cd4-8c01-37b9bb_D1_D5,0.2075871908054364,0.2061321590464368,Solid Tissue Normal,Ovary,Ovarian Serous Cystadenocarcinoma
+Prospective Ovarian PNNL Proteome Qeplus,cfd76f9a-ce60-4ec7-8e6b-a8fc31_D2,-0.2151440747443539,-0.2243720911569472,Primary Tumor,Ovary,Ovarian Serous Cystadenocarcinoma
+Prospective Ovarian PNNL Proteome Qeplus,bd266bdd-12e4-42cb-9c49-911bfc_D5,0.1703839143822546,0.1791843623228077,Primary Tumor,Ovary,Ovarian Serous Cystadenocarcinoma
+Prospective Ovarian PNNL Proteome Qeplus,f6c215ea-5381-4521-bb61-be8e97_D5,-0.4592557877082063,-0.4561663607396656,Primary Tumor,Ovary,Ovarian Serous Cystadenocarcinoma
+Prospective Ovarian PNNL Proteome Qeplus,JHU-QC.2,-0.4362421345669657,-0.440701400393683,,,
+Prospective Ovarian PNNL Proteome Qeplus,2b73e01c-347a-4dae-a71d-752aeb_D5,-0.1905693641574519,-0.1926888230274977,Solid Tissue Normal,Ovary,Ovarian Serous Cystadenocarcinoma
+Prospective Ovarian PNNL Proteome Qeplus,b9c1f22e-61f7-45ed-b3b4-5094c7_D5,-0.2131331210290105,-0.2237250751211735,Solid Tissue Normal,Ovary,Ovarian Serous Cystadenocarcinoma
+Prospective Ovarian PNNL Proteome Qeplus,6530147a-efe9-4df6-ac2f-03ece3_D5,0.0342145040608743,0.0419473691726433,Primary Tumor,Ovary,Ovarian Serous Cystadenocarcinoma
+Prospective Ovarian PNNL Proteome Qeplus,ce1e5dfc-2ef1-4633-af93-5ea4d9_D5,-0.470241731916325,-0.4671924502795511,Primary Tumor,Ovary,Ovarian Serous Cystadenocarcinoma
+Prospective Ovarian PNNL Proteome Qeplus,8df6697b-56a1-4ff0-97cf-42b966_D5,-0.0838313795586614,-0.0931270649717219,Solid Tissue Normal,Ovary,Ovarian Serous Cystadenocarcinoma
+Prospective Ovarian PNNL Proteome Qeplus,49bd51fe-48a1-4828-b66e-b30c38_D5,-0.0067283656473893,-0.0142798665063589,Primary Tumor,Ovary,Ovarian Serous Cystadenocarcinoma
+Prospective Ovarian PNNL Proteome Qeplus,fbb41c94-aabd-49cc-90b2-882c3e_D5,-0.3170582333524731,-0.3226897420083709,Primary Tumor,Ovary,Ovarian Serous Cystadenocarcinoma
+Prospective Ovarian PNNL Proteome Qeplus,52c064a7-78d9-4a1a-85b4-27c6d1_D5,-0.0095710888616427,-0.0139213590816472,Primary Tumor,Ovary,Ovarian Serous Cystadenocarcinoma
+Prospective Ovarian PNNL Proteome Qeplus,3d3e1888-d67e-4c69-ba83-112d0f_D5,-0.3079757830011726,-0.3064325914736764,Primary Tumor,Ovary,Ovarian Serous Cystadenocarcinoma
+Prospective Ovarian PNNL Proteome Qeplus,9a7a86d3-bbf2-4d36-941d-c75c03_D1_D5,-0.1296411576687843,-0.116051625935138,Primary Tumor,Ovary,Ovarian Serous Cystadenocarcinoma
+Prospective Ovarian PNNL Proteome Qeplus,1556af7e-c2ae-4fce-9aae-87c459_D1_D5,0.362966194549907,0.3568849714056908,Solid Tissue Normal,Ovary,Ovarian Serous Cystadenocarcinoma
+Prospective Ovarian PNNL Proteome Qeplus,5b5c81b1-4e73-48d3-9469-108edd_D2,-0.0363870230019138,-0.0315094105101967,Primary Tumor,Ovary,Ovarian Serous Cystadenocarcinoma
+Prospective Ovarian PNNL Proteome Qeplus,6e81377c-d0d6-4881-87f6-01c909_D5,0.5818895590929579,0.5840823606047387,Solid Tissue Normal,Ovary,Ovarian Serous Cystadenocarcinoma
+Prospective Ovarian PNNL Proteome Qeplus,28d0abdb-f682-4bd3-9425-a9c508_D5,-0.3902367437374534,-0.3692330100140101,Primary Tumor,Ovary,Ovarian Serous Cystadenocarcinoma
+Prospective Ovarian PNNL Proteome Qeplus,e7b656bf-3c34-4ba1-bdf3-c7eefe_D5,-0.2316321608046106,-0.2304508077432397,Primary Tumor,Ovary,Ovarian Serous Cystadenocarcinoma
+Prospective Ovarian PNNL Proteome Qeplus,7c2aeacf-a30d-4104-b60a-7545ee_D2,-0.2671674542431731,-0.2636341885244836,Primary Tumor,Ovary,Ovarian Serous Cystadenocarcinoma
+Prospective Ovarian PNNL Proteome Qeplus,51a4ce2f-4166-4c6b-a7e0-942d0a_D5,0.1958774706813866,0.1996493164880826,Primary Tumor,Ovary,Ovarian Serous Cystadenocarcinoma
+Prospective Ovarian PNNL Proteome Qeplus,38f29517-c046-4da5-ba0d-67d614_D2,-0.5110857004111071,-0.5108895375068249,Primary Tumor,Ovary,Ovarian Serous Cystadenocarcinoma
+Prospective Ovarian PNNL Proteome Qeplus,3a380577-c134-47ba-a1ce-988d7c_D5,-0.2416523911970924,-0.2383228458383172,Primary Tumor,Ovary,Ovarian Serous Cystadenocarcinoma
+Prospective Ovarian PNNL Proteome Qeplus,340a3769-3031-41ae-bb08-a2f696_D5,0.8051535469042213,0.8108638659790365,Solid Tissue Normal,Ovary,Ovarian Serous Cystadenocarcinoma
+Prospective Ovarian PNNL Proteome Qeplus,8120e7d6-bd09-4334-841c-70a214_D2,0.1036711699398653,0.1128165088968251,Primary Tumor,Ovary,Ovarian Serous Cystadenocarcinoma
+Prospective Ovarian PNNL Proteome Qeplus,1db5574d-aca7-403c-8100-6e705f_D5,0.0765538132771125,0.0848848157061769,Solid Tissue Normal,Ovary,Ovarian Serous Cystadenocarcinoma
+Prospective Ovarian PNNL Proteome Qeplus,3b044c9b-ac09-4b4b-8f37-462411_D2,0.2539641442547163,0.2588342383042235,Primary Tumor,Ovary,Ovarian Serous Cystadenocarcinoma
+Prospective Ovarian PNNL Proteome Qeplus,35a345a4-e954-4c81-ae3f-7797cd_D5,-0.7269563213870189,-0.7267367675764121,Primary Tumor,Ovary,Ovarian Serous Cystadenocarcinoma
+Prospective Ovarian PNNL Proteome Qeplus,2433b136-fc7b-4cea-b958-bc6efb_D5,-0.4939877689665526,-0.4916799602500688,Primary Tumor,Ovary,Ovarian Serous Cystadenocarcinoma
+Prospective Ovarian PNNL Proteome Qeplus,JHU-QC.3,-0.4896919959974636,-0.4913751290635764,,,
+Prospective Ovarian PNNL Proteome Qeplus,3fbf076a-824b-4eac-b6dc-bf5e59_D5,0.1373095374702013,0.1294190345988868,Solid Tissue Normal,Ovary,Ovarian Serous Cystadenocarcinoma
+Prospective Ovarian PNNL Proteome Qeplus,7d953d1d-84b6-4ecd-b1d7-1ed865_D5,-0.3009958752243577,-0.2985669106888171,Primary Tumor,Ovary,Ovarian Serous Cystadenocarcinoma
+Prospective Ovarian PNNL Proteome Qeplus,2ed8beb2-bc63-4bad-b5fe-1916a0_D5,0.3970120200593613,0.4101433851203389,Primary Tumor,Ovary,Ovarian Serous Cystadenocarcinoma
+Prospective Ovarian PNNL Proteome Qeplus,76e77c6b-c80e-4391-bdbb-e1dcea_D5,0.1332022358816076,0.132242717516128,Primary Tumor,Ovary,Ovarian Serous Cystadenocarcinoma
+Prospective Ovarian PNNL Proteome Qeplus,e9d416e7-f661-400a-896e-388545_D5,0.240032690105256,0.2470852175583475,Primary Tumor,Ovary,Ovarian Serous Cystadenocarcinoma
+Prospective Ovarian PNNL Proteome Qeplus,5ea22f5e-307b-491d-801f-8b7fa6_D5,-0.1267353440142756,-0.1199226692229783,Primary Tumor,Ovary,Ovarian Serous Cystadenocarcinoma
+Prospective Ovarian PNNL Proteome Qeplus,50997c44-1c8b-4d34-b535-4a6cc2_D5,-0.0326216120469438,-0.0382933697277025,Primary Tumor,Ovary,Ovarian Serous Cystadenocarcinoma
+Prospective Ovarian PNNL Proteome Qeplus,8e6a9f67-7c53-4386-9ba0-e48101_D2,0.0993642661290262,0.0909373838752904,Primary Tumor,Ovary,Ovarian Serous Cystadenocarcinoma
+Prospective Ovarian PNNL Proteome Qeplus,6319b36b-533c-4e86-8e12-80552e_D2,-0.2978865522124473,-0.3075464026285491,Primary Tumor,Ovary,Ovarian Serous Cystadenocarcinoma
+Prospective Ovarian PNNL Proteome Qeplus,1a10c200-3895-4648-b951-94f99f_D5,-0.0032040656756762,-0.000814314740082,Primary Tumor,Ovary,Ovarian Serous Cystadenocarcinoma
+Prospective Ovarian PNNL Proteome Qeplus,51171486-e865-4140-b726-e77088_D5,0.1546302352351902,0.1680279898370735,Solid Tissue Normal,Ovary,Ovarian Serous Cystadenocarcinoma
+Prospective Ovarian PNNL Proteome Qeplus,9b90eb78-2f50-4aeb-b010-d642f9_D5,-0.4044146064710457,-0.4064769962592564,Primary Tumor,Ovary,Ovarian Serous Cystadenocarcinoma
+Prospective Ovarian PNNL Proteome Qeplus,f4034d75-d533-47c2-8453-068e37_D2,-0.4386820382999879,-0.426566203126849,Primary Tumor,Ovary,Ovarian Serous Cystadenocarcinoma
+Prospective Ovarian PNNL Proteome Qeplus,46c73531-f531-4ec3-97fe-b39d9d_D5,-0.5159305985128165,-0.509142358104986,Primary Tumor,Ovary,Ovarian Serous Cystadenocarcinoma
+Prospective Ovarian PNNL Proteome Qeplus,JHU-QC.4,-0.2381827537950241,-0.2438098168666764,,,
+Prospective Ovarian PNNL Proteome Qeplus,285fed94-1495-448e-879b-b55de9_D5,-0.3054477859340329,-0.3055443234774586,Primary Tumor,Ovary,Ovarian Serous Cystadenocarcinoma
+Prospective Ovarian PNNL Proteome Qeplus,79b60f32-6cca-4cb6-9a1e-22a3ac_D5,-0.3436258000086651,-0.3414760525735862,Primary Tumor,Ovary,Ovarian Serous Cystadenocarcinoma
+Prospective Ovarian PNNL Proteome Qeplus,4253f4a4-50b9-409a-b9a8-f94658_D2,-0.2933194054769068,-0.2994371232339236,Primary Tumor,Ovary,Ovarian Serous Cystadenocarcinoma
+Prospective Ovarian PNNL Proteome Qeplus,eb0a53df-7620-4024-8d2d-051142_D5,-0.5416563476916029,-0.5410904421767933,Primary Tumor,Ovary,Ovarian Serous Cystadenocarcinoma
+Prospective Ovarian PNNL Proteome Qeplus,fe83e13f-9754-403b-8f74-d6caf8_D5,-0.1952027474607829,-0.1834642032421185,Primary Tumor,Ovary,Ovarian Serous Cystadenocarcinoma
+Prospective Ovarian PNNL Proteome Qeplus,0cc794c3-5bf5-4621-b238-58a0f6_D5,-0.0863504758126066,-0.0851787161853229,Primary Tumor,Ovary,Ovarian Serous Cystadenocarcinoma
+Prospective Ovarian PNNL Proteome Qeplus,161317f3-1a39-438e-af45-cd2502_D5,-0.5631327791526711,-0.5574094215361582,Primary Tumor,Ovary,Ovarian Serous Cystadenocarcinoma
+Prospective Ovarian PNNL Proteome Qeplus,9c8e78bf-b03e-4ba0-9909-5ff070_D5,-0.2975677917263009,-0.2978520839737389,Primary Tumor,Ovary,Ovarian Serous Cystadenocarcinoma
+Prospective Ovarian PNNL Proteome Qeplus,d4791079-c826-4fc7-9d9b-ee20ba_D5,-0.0007562695393544,-0.000781018558952,Primary Tumor,Ovary,Ovarian Serous Cystadenocarcinoma
+Prospective Ovarian PNNL Proteome Qeplus,eb3f3494-7057-4afe-b212-e6e9a3_D5,-0.4970840715291482,-0.5018227355277037,Primary Tumor,Ovary,Ovarian Serous Cystadenocarcinoma
+Prospective Ovarian PNNL Proteome Qeplus,7edfd606-4bee-4529-9fec-1ca7f0_D5,0.2250369843000675,0.2280803023733352,Solid Tissue Normal,Ovary,Ovarian Serous Cystadenocarcinoma
+Prospective Ovarian PNNL Proteome Qeplus,318d53c3-216b-4de1-a098-77d6dd_D5,-0.4413902688995877,-0.4374929401600574,Primary Tumor,Ovary,Ovarian Serous Cystadenocarcinoma
+Prospective Ovarian PNNL Proteome Qeplus,8ed739dd-ae0f-4881-971a-db3cf4_D1_D5,-0.3605785676654844,-0.3552687355887908,Solid Tissue Normal,Ovary,Ovarian Serous Cystadenocarcinoma
+Prospective Ovarian PNNL Proteome Qeplus,0331bd9b-94a5-4d02-ae43-6288e9_D2,0.3519131269523307,0.3560652330008462,Primary Tumor,Ovary,Ovarian Serous Cystadenocarcinoma
+Prospective Ovarian PNNL Proteome Qeplus,a03d1103-b809-42c4-ad5c-5aff58_D5,-0.1733986288776477,-0.1771872058208201,Primary Tumor,Ovary,Ovarian Serous Cystadenocarcinoma
+Prospective Ovarian PNNL Proteome Qeplus,8e17b45e-6a06-4e4e-913d-7b1edb_D5,-0.0233126321491243,-0.023068984967175,Primary Tumor,Ovary,Ovarian Serous Cystadenocarcinoma
+Prospective Ovarian PNNL Proteome Qeplus,9e0d47e0-f633-468b-b82b-4d752d_D5,-0.7308797029888884,-0.7355860272154994,Primary Tumor,Ovary,Ovarian Serous Cystadenocarcinoma
+Prospective Ovarian PNNL Proteome Qeplus,1772e913-f62e-446a-8cf3-720348_D5,-0.3297096366267528,-0.3279212741611327,Primary Tumor,Ovary,Ovarian Serous Cystadenocarcinoma
+Prospective Ovarian PNNL Proteome Qeplus,d109a3c0-350e-47f5-bda0-61899c_D5,-0.9576860738177264,-0.957200501673114,Primary Tumor,Ovary,Ovarian Serous Cystadenocarcinoma
+Prospective Ovarian PNNL Proteome Qeplus,61f76fe6-a1c6-41b8-bdc2-2f9209_D5,0.1995614248845519,0.2079030903516311,Solid Tissue Normal,Ovary,Ovarian Serous Cystadenocarcinoma
+Prospective Ovarian PNNL Proteome Qeplus,80873a0c-1f40-4d51-bab1-3f2071_D5,-0.5119840575868126,-0.5034472594593677,Primary Tumor,Ovary,Ovarian Serous Cystadenocarcinoma
+Prospective Ovarian PNNL Proteome Qeplus,a8853382-b726-4ce8-98d5-ca89df_D5,0.4227431274584702,0.4259374867819241,Primary Tumor,Ovary,Ovarian Serous Cystadenocarcinoma
+Prospective Ovarian PNNL Proteome Qeplus,f02d54bd-b3c7-4375-bc82-167395_D1_D5,0.2989406013469286,0.3058561291286881,Solid Tissue Normal,Ovary,Ovarian Serous Cystadenocarcinoma
+Prospective Ovarian PNNL Proteome Qeplus,af95e2c6-25c4-4ab8-bf06-3e15ff_D5,-0.5954519887060464,-0.5985302238112045,Primary Tumor,Ovary,Ovarian Serous Cystadenocarcinoma
+Prospective Ovarian PNNL Proteome Qeplus,69d552be-7cb2-4bb4-b602-a27b3e_D5,-0.0833618317386191,-0.0825955889063333,Primary Tumor,Ovary,Ovarian Serous Cystadenocarcinoma
+Prospective Ovarian PNNL Proteome Qeplus,3490835c-c004-45ed-91f3-7c206f_D5,0.0128867857750765,0.0197794625342835,Primary Tumor,Ovary,Ovarian Serous Cystadenocarcinoma
+Prospective Ovarian PNNL Proteome Qeplus,665f4f0f-130c-4b09-9762-cd0696_D2,-0.1552710338085303,-0.1612161757683644,Primary Tumor,Ovary,Ovarian Serous Cystadenocarcinoma
+Prospective Ovarian PNNL Proteome Qeplus,b22659b9-e12c-4725-a7db-a833de_D1_D5,0.1725856820712219,0.1683539886430043,Solid Tissue Normal,Ovary,Ovarian Serous Cystadenocarcinoma
+Prospective Ovarian PNNL Proteome Qeplus,44a9e976-f859-4a0d-9f4f-70b95b_D2,0.7098362702587128,0.720068653955278,Primary Tumor,Ovary,Ovarian Serous Cystadenocarcinoma
+Prospective Ovarian PNNL Proteome Qeplus,347e379b-77c0-4dd3-aa25-18c9d1_D5,-0.3651219593118056,-0.3661751539509992,Primary Tumor,Ovary,Ovarian Serous Cystadenocarcinoma
+Prospective Ovarian PNNL Proteome Qeplus,74a45e5a-a35a-4c60-a4b4-f3f5ea_D5,-0.6298276780302023,-0.6227904740787481,Primary Tumor,Ovary,Ovarian Serous Cystadenocarcinoma
+Prospective Ovarian PNNL Proteome Qeplus,cfb8cb2c-53c6-40d7-8069-a1a804_D5,-0.1532970560311267,-0.1489050258578556,Primary Tumor,Ovary,Ovarian Serous Cystadenocarcinoma
+Prospective Ovarian PNNL Proteome Qeplus,05387aad-2a1f-42c2-8d6f-950598_D2,0.1568987273441073,0.1555820240886688,Primary Tumor,Ovary,Ovarian Serous Cystadenocarcinoma
+Prospective Ovarian PNNL Proteome Qeplus,994f9b8e-46cb-413f-8ec8-2c2fed_D5,0.0963292290186832,0.1062870615998674,Solid Tissue Normal,Ovary,Ovarian Serous Cystadenocarcinoma
+Prospective Ovarian PNNL Proteome Qeplus,08296da7-70ea-44df-8646-09f2cc_D5,-0.2897366702678005,-0.2758464043948804,Primary Tumor,Ovary,Ovarian Serous Cystadenocarcinoma
+Prospective Ovarian PNNL Proteome Qeplus,407c600a-c0ac-41a6-8d87-fd8a3c_D2,-0.2444316849038129,-0.2388143483478823,Primary Tumor,Ovary,Ovarian Serous Cystadenocarcinoma
+Prospective Ovarian PNNL Proteome Qeplus,dd3a1c3b-6b49-4ec8-b6df-cdf22e_D5,-0.3978606981465098,-0.3999957270494678,Primary Tumor,Ovary,Ovarian Serous Cystadenocarcinoma
+Prospective Ovarian PNNL Proteome Qeplus,3dcf8b3c-c0c5-4dfa-9543-5d30fb_D5,-0.8450974712625112,-0.8412055152883746,Primary Tumor,Ovary,Ovarian Serous Cystadenocarcinoma
+Prospective Ovarian PNNL Proteome Qeplus,0745488e-0bfb-4d1f-8228-dedf76_D1_D5,0.610775115988932,0.6051260199624313,Solid Tissue Normal,Ovary,Ovarian Serous Cystadenocarcinoma
+Prospective Ovarian PNNL Proteome Qeplus,2115808b-6a0d-49bc-a8d7-b83bde_D5,-0.4276277158571195,-0.4200314157159577,Primary Tumor,Ovary,Ovarian Serous Cystadenocarcinoma
+Prospective Ovarian PNNL Proteome Qeplus,27f3ca2d-a86f-479d-8e7e-5307c7_D5,-0.1892735973387961,-0.1842658592486922,Primary Tumor,Ovary,Ovarian Serous Cystadenocarcinoma
+Prospective Ovarian PNNL Proteome Qeplus,4ccb249a-6722-491e-97e9-e3b4e7_D5,-0.3054734575687196,-0.3042898096781889,Primary Tumor,Ovary,Ovarian Serous Cystadenocarcinoma
+Prospective Ovarian PNNL Proteome Qeplus,627e6e36-3dca-4ee5-9755-6f3510_D5,-0.3736783338193272,-0.3713221056877641,Primary Tumor,Ovary,Ovarian Serous Cystadenocarcinoma
+Prospective Ovarian PNNL Proteome Qeplus,d38f40fb-dd78-43b2-8b7b-4b6977_D5,-1.2565494653233953,-1.2539962263252813,Primary Tumor,Ovary,Ovarian Serous Cystadenocarcinoma
+Prospective Ovarian PNNL Proteome Qeplus,91b287fd-eadb-442d-abcd-20b741_D5,0.1397514689189243,0.1493974605368785,Primary Tumor,Ovary,Ovarian Serous Cystadenocarcinoma
+Prospective Ovarian PNNL Proteome Qeplus,78c151c7-0d5b-4aae-88d3-87463b_D5,-0.2662686872301081,-0.2766881602040078,Solid Tissue Normal,Ovary,Ovarian Serous Cystadenocarcinoma
+Prospective Ovarian PNNL Proteome Qeplus,2a237fd4-f966-4563-bab1-61dbd7_D2,-0.7260412007409603,-0.7184225498149462,Primary Tumor,Ovary,Ovarian Serous Cystadenocarcinoma
+Prospective Ovarian PNNL Proteome Qeplus,2224c03f-b7b1-4368-887e-2b4cdf_D5,-0.1228234164251623,-0.1166492320771598,Primary Tumor,Ovary,Ovarian Serous Cystadenocarcinoma
+Prospective Ovarian PNNL Proteome Qeplus,42d860a3-8a0c-4c44-a09a-9ad8cf_D5,0.0843060044912622,0.0890256620215071,Primary Tumor,Ovary,Ovarian Serous Cystadenocarcinoma
+Prospective Ovarian PNNL Proteome Qeplus,bd22174a-86c1-489f-bcb7-93e12b_D5,0.318249489325903,0.3204358892848109,Solid Tissue Normal,Ovary,Ovarian Serous Cystadenocarcinoma
+Prospective Ovarian PNNL Proteome Qeplus,6c9a5bdc-0f0e-4cc8-aec5-63091c_D2,0.7689946113165642,0.7624410540614148,Primary Tumor,Ovary,Ovarian Serous Cystadenocarcinoma
+Prospective Ovarian PNNL Proteome Qeplus,1c9145ad-1981-4871-aa7e-8b11de_D5,-0.5413515302014074,-0.5414650644809714,Primary Tumor,Ovary,Ovarian Serous Cystadenocarcinoma
+Prospective Ovarian PNNL Proteome Qeplus,15524912-685a-47ce-a824-567848_D5,-0.1499935520104035,-0.1485475635460634,Primary Tumor,Ovary,Ovarian Serous Cystadenocarcinoma
+Prospective Ovarian PNNL Proteome Qeplus,e3ebe010-cd31-4b5d-8fcb-b7103b_D5,-0.4945928212456206,-0.497231143860495,Primary Tumor,Ovary,Ovarian Serous Cystadenocarcinoma
+Prospective Ovarian PNNL Proteome Qeplus,efc971f8-54c5-4531-a792-705ecf_D5,0.2803155765381498,0.2807414486135863,Primary Tumor,Ovary,Ovarian Serous Cystadenocarcinoma
+Prospective Ovarian PNNL Proteome Qeplus,d945689a-dcf3-44f4-a42f-1ded6d_D2,0.3843726166734131,0.3978935925894406,Primary Tumor,Ovary,Ovarian Serous Cystadenocarcinoma
+Prospective Ovarian PNNL Proteome Qeplus,JHU-QC.5,-0.4029137676000371,-0.4087750629506561,,,
+CPTAC CCRCC Discovery Study - Proteome,CPT0079430001,0.1383811457980847,0.1394987106041125,Solid Tissue Normal,Kidney,Clear Cell Renal Cell Carcinoma
+CPTAC CCRCC Discovery Study - Proteome,CPT0023360001,0.1203603059820958,0.1228359299257942,Solid Tissue Normal,Kidney,Clear Cell Renal Cell Carcinoma
+CPTAC CCRCC Discovery Study - Proteome,CPT0023350003,-0.6371246041687237,-0.6265999218292579,Primary Tumor,Kidney,Clear Cell Renal Cell Carcinoma
+CPTAC CCRCC Discovery Study - Proteome,CPT0079410003,-0.3746978542341,-0.3653338378736047,Primary Tumor,Kidney,Clear Cell Renal Cell Carcinoma
+CPTAC CCRCC Discovery Study - Proteome,CPT0087040003,-0.6008793896882584,-0.6084094318087476,Primary Tumor,Kidney,Clear Cell Renal Cell Carcinoma
+CPTAC CCRCC Discovery Study - Proteome,CPT0077310003,-0.6226288257713278,-0.6330013703146653,Primary Tumor,Kidney,Clear Cell Renal Cell Carcinoma
+CPTAC CCRCC Discovery Study - Proteome,CPT0077320001,-1.011983496511086,-1.0056380213832528,Solid Tissue Normal,Kidney,Clear Cell Renal Cell Carcinoma
+CPTAC CCRCC Discovery Study - Proteome,CPT0087050003,-0.4771152757541791,-0.4788074641324916,Solid Tissue Normal,Kidney,Clear Cell Renal Cell Carcinoma
+CPTAC CCRCC Discovery Study - Proteome,CPT0002270011,0.3271547569206095,0.3250594603472705,Primary Tumor,Kidney,Clear Cell Renal Cell Carcinoma
+CPTAC CCRCC Discovery Study - Proteome,NCI7-1,-1.20838533119766,-1.2065738540571824,Cell Lines,Not Reported,Other
+CPTAC CCRCC Discovery Study - Proteome,CPT0078840001,0.2664495704115014,0.2660822434538925,Solid Tissue Normal,Kidney,Clear Cell Renal Cell Carcinoma
+CPTAC CCRCC Discovery Study - Proteome,CPT0075570001,-0.4013049248043448,-0.3989669572248631,Solid Tissue Normal,Kidney,Clear Cell Renal Cell Carcinoma
+CPTAC CCRCC Discovery Study - Proteome,CPT0075560003,-0.4191466772398625,-0.422916267663791,Primary Tumor,Kidney,Clear Cell Renal Cell Carcinoma
+CPTAC CCRCC Discovery Study - Proteome,CPT0078830003,0.6966408308857484,0.7031697836275967,Primary Tumor,Kidney,Clear Cell Renal Cell Carcinoma
+CPTAC CCRCC Discovery Study - Proteome,CPT0077490003,0.3541249158718149,0.3638011498454277,Primary Tumor,Kidney,Clear Cell Renal Cell Carcinoma
+CPTAC CCRCC Discovery Study - Proteome,CPT0077500001,0.1232915547605243,0.1237827889060469,Solid Tissue Normal,Kidney,Clear Cell Renal Cell Carcinoma
+CPTAC CCRCC Discovery Study - Proteome,CPT0023690003,0.209820156099585,0.2036459069612538,Primary Tumor,Kidney,Clear Cell Renal Cell Carcinoma
+CPTAC CCRCC Discovery Study - Proteome,CPT0023710001,0.1445496857472843,0.1424946830762993,Solid Tissue Normal,Kidney,Clear Cell Renal Cell Carcinoma
+CPTAC CCRCC Discovery Study - Proteome,CPT0025060001,-0.0457483779608391,-0.0429793965983114,Solid Tissue Normal,Kidney,Clear Cell Renal Cell Carcinoma
+CPTAC CCRCC Discovery Study - Proteome,CPT0092290003,-0.1800813855092476,-0.1800272609072662,Primary Tumor,Kidney,Clear Cell Renal Cell Carcinoma
+CPTAC CCRCC Discovery Study - Proteome,CPT0014130001,0.0252491181965495,0.026331277953353,Solid Tissue Normal,Kidney,Clear Cell Renal Cell Carcinoma
+CPTAC CCRCC Discovery Study - Proteome,CPT0001230001,0.0753485186355283,0.0763931580683601,Solid Tissue Normal,Kidney,Clear Cell Renal Cell Carcinoma
+CPTAC CCRCC Discovery Study - Proteome,CPT0071150004,0.3479452935656099,0.3509337270232331,Primary Tumor,Kidney,Clear Cell Renal Cell Carcinoma
+CPTAC CCRCC Discovery Study - Proteome,CPT0014160003,-0.3538001473280319,-0.3611538891397724,Primary Tumor,Kidney,Clear Cell Renal Cell Carcinoma
+CPTAC CCRCC Discovery Study - Proteome,CPT0092310003,0.2136260649746581,0.2151011515216876,Solid Tissue Normal,Kidney,Clear Cell Renal Cell Carcinoma
+CPTAC CCRCC Discovery Study - Proteome,CPT0001220008,0.0565627921002498,0.056283639720221,Primary Tumor,Kidney,Clear Cell Renal Cell Carcinoma
+CPTAC CCRCC Discovery Study - Proteome,CPT0025050003,-0.0412996908955493,-0.0373207404142638,Primary Tumor,Kidney,Clear Cell Renal Cell Carcinoma
+CPTAC CCRCC Discovery Study - Proteome,QC1,-0.1769919236343967,-0.1612063654736043,Not Reported,Not Reported,Other
+CPTAC CCRCC Discovery Study - Proteome,CPT0088500001,0.0805628298345237,0.0789596877776209,Solid Tissue Normal,Kidney,Clear Cell Renal Cell Carcinoma
+CPTAC CCRCC Discovery Study - Proteome,CPT0078510003,-0.2781933706031749,-0.2855813566219869,Primary Tumor,Kidney,Clear Cell Renal Cell Carcinoma
+CPTAC CCRCC Discovery Study - Proteome,CPT0079510001,0.0235309771369831,0.0258107602048534,Solid Tissue Normal,Kidney,Clear Cell Renal Cell Carcinoma
+CPTAC CCRCC Discovery Study - Proteome,CPT0089020003,0.439086469574256,0.4326368782743957,Primary Tumor,Kidney,Clear Cell Renal Cell Carcinoma
+CPTAC CCRCC Discovery Study - Proteome,CPT0078530001,0.2088129248074477,0.2070070254011817,Solid Tissue Normal,Kidney,Clear Cell Renal Cell Carcinoma
+CPTAC CCRCC Discovery Study - Proteome,CPT0079480003,0.2990059103207322,0.3095392688297425,Primary Tumor,Kidney,Clear Cell Renal Cell Carcinoma
+CPTAC CCRCC Discovery Study - Proteome,CPT0088480003,-0.208454703308269,-0.2088068605207214,Primary Tumor,Kidney,Clear Cell Renal Cell Carcinoma
+CPTAC CCRCC Discovery Study - Proteome,CPT0089040001,-0.001899596380287,-0.0018322885247682,Solid Tissue Normal,Kidney,Clear Cell Renal Cell Carcinoma
+CPTAC CCRCC Discovery Study - Proteome,CPT0026410003,0.2194375542059102,0.2294928427204602,Primary Tumor,Kidney,Clear Cell Renal Cell Carcinoma
+CPTAC CCRCC Discovery Study - Proteome,CPT0006440003,0.3896456291173054,0.3899014461799609,Primary Tumor,Kidney,Clear Cell Renal Cell Carcinoma
+CPTAC CCRCC Discovery Study - Proteome,CPT0066470004,0.0119045718249883,0.0046573063587604,Primary Tumor,Kidney,Clear Cell Renal Cell Carcinoma
+CPTAC CCRCC Discovery Study - Proteome,CPT0066430001,0.2022882647393646,0.2046743970266061,Solid Tissue Normal,Kidney,Clear Cell Renal Cell Carcinoma
+CPTAC CCRCC Discovery Study - Proteome,CPT0088970003,0.4047746176637921,0.4053098384498786,Primary Tumor,Kidney,Clear Cell Renal Cell Carcinoma
+CPTAC CCRCC Discovery Study - Proteome,CPT0020020001,0.1041928339614859,0.1029000554858385,Solid Tissue Normal,Kidney,Clear Cell Renal Cell Carcinoma
+CPTAC CCRCC Discovery Study - Proteome,CPT0006530001,-0.1113395942235698,-0.1111037283476375,Solid Tissue Normal,Kidney,Clear Cell Renal Cell Carcinoma
+CPTAC CCRCC Discovery Study - Proteome,CPT0026420001,0.0943208149461744,0.0886541464705642,Solid Tissue Normal,Kidney,Clear Cell Renal Cell Carcinoma
+CPTAC CCRCC Discovery Study - Proteome,CPT0019990003,0.2289147543380644,0.2207989438415894,Primary Tumor,Kidney,Clear Cell Renal Cell Carcinoma
+CPTAC CCRCC Discovery Study - Proteome,CPT0000790001,0.113485453959445,0.1154071179665849,Solid Tissue Normal,Kidney,Clear Cell Renal Cell Carcinoma
+CPTAC CCRCC Discovery Study - Proteome,CPT0001550001,-0.0561125831714868,-0.0557554297372588,Solid Tissue Normal,Kidney,Clear Cell Renal Cell Carcinoma
+CPTAC CCRCC Discovery Study - Proteome,CPT0065450001,0.1842682842281055,0.1821508996161305,Solid Tissue Normal,Kidney,Clear Cell Renal Cell Carcinoma
+CPTAC CCRCC Discovery Study - Proteome,CPT0001540009,0.25312934185471,0.2589610708813994,Primary Tumor,Kidney,Clear Cell Renal Cell Carcinoma
+CPTAC CCRCC Discovery Study - Proteome,CPT0066480003,-0.0311501175471649,-0.0357443714474492,Primary Tumor,Kidney,Clear Cell Renal Cell Carcinoma
+CPTAC CCRCC Discovery Study - Proteome,CPT0066520001,-0.0187275966901906,-0.0196151253393112,Solid Tissue Normal,Kidney,Clear Cell Renal Cell Carcinoma
+CPTAC CCRCC Discovery Study - Proteome,CPT0065430003,0.0605361158356153,0.0656469774357314,Primary Tumor,Kidney,Clear Cell Renal Cell Carcinoma
+CPTAC CCRCC Discovery Study - Proteome,QC2,-0.0655881453279218,-0.0485479193476886,Not Reported,Not Reported,Other
+CPTAC CCRCC Discovery Study - Proteome,CPT0000780007,0.405264253855858,0.3993218003338181,Primary Tumor,Kidney,Clear Cell Renal Cell Carcinoma
+CPTAC CCRCC Discovery Study - Proteome,CPT0019130003,0.2099377225304808,0.2155172094646683,Primary Tumor,Kidney,Clear Cell Renal Cell Carcinoma
+CPTAC CCRCC Discovery Study - Proteome,CPT0014350001,0.1335298588974233,0.1357892737937034,Solid Tissue Normal,Kidney,Clear Cell Renal Cell Carcinoma
+CPTAC CCRCC Discovery Study - Proteome,CPT0079000001,0.1322708083977811,0.1351641244537357,Solid Tissue Normal,Kidney,Clear Cell Renal Cell Carcinoma
+CPTAC CCRCC Discovery Study - Proteome,CPT0078990003,0.4146235720172259,0.4229164304133767,Primary Tumor,Kidney,Clear Cell Renal Cell Carcinoma
+CPTAC CCRCC Discovery Study - Proteome,CPT0000870016,0.3372776519497788,0.3414948972524167,Primary Tumor,Kidney,Clear Cell Renal Cell Carcinoma
+CPTAC CCRCC Discovery Study - Proteome,CPT0014370004,0.110146462884415,0.1098652995005243,Primary Tumor,Kidney,Clear Cell Renal Cell Carcinoma
+CPTAC CCRCC Discovery Study - Proteome,CPT0019160001,-0.0789043248578448,-0.0766764478569104,Solid Tissue Normal,Kidney,Clear Cell Renal Cell Carcinoma
+CPTAC CCRCC Discovery Study - Proteome,CPT0000890001,0.0735661157465327,0.0748546677470765,Solid Tissue Normal,Kidney,Clear Cell Renal Cell Carcinoma
+CPTAC CCRCC Discovery Study - Proteome,QC3,-0.0365974788748421,-0.0247338386981776,Not Reported,Not Reported,Other
+CPTAC CCRCC Discovery Study - Proteome,CPT0065820001,-0.096023597375737,-0.0918129262281489,Solid Tissue Normal,Kidney,Clear Cell Renal Cell Carcinoma
+CPTAC CCRCC Discovery Study - Proteome,CPT0086360003,-0.0173615497383876,-0.0196742889080764,Primary Tumor,Kidney,Clear Cell Renal Cell Carcinoma
+CPTAC CCRCC Discovery Study - Proteome,CPT0092800003,0.0735511538287597,0.0777705546784571,Solid Tissue Normal,Kidney,Clear Cell Renal Cell Carcinoma
+CPTAC CCRCC Discovery Study - Proteome,CPT0065810003,-0.0726796701153272,-0.0755946739681207,Primary Tumor,Kidney,Clear Cell Renal Cell Carcinoma
+CPTAC CCRCC Discovery Study - Proteome,CPT0092790003,0.1412270980861893,0.1315257849629135,Primary Tumor,Kidney,Clear Cell Renal Cell Carcinoma
+CPTAC CCRCC Discovery Study - Proteome,CPT0001500009,-0.0751878991563226,-0.086078795987985,Primary Tumor,Kidney,Clear Cell Renal Cell Carcinoma
+CPTAC CCRCC Discovery Study - Proteome,NCI7-2,-1.099284953250245,-1.0990351789691153,Cell Lines,Not Reported,Other
+CPTAC CCRCC Discovery Study - Proteome,CPT0086370003,0.11941262835754,0.1190550131770739,Solid Tissue Normal,Kidney,Clear Cell Renal Cell Carcinoma
+CPTAC CCRCC Discovery Study - Proteome,CPT0001510001,0.1519458076652247,0.1521084542545681,Solid Tissue Normal,Kidney,Clear Cell Renal Cell Carcinoma
+CPTAC CCRCC Discovery Study - Proteome,NCI7-3,-1.1123280292253366,-1.1065651862750236,Cell Lines,Not Reported,Other
+CPTAC CCRCC Discovery Study - Proteome,CPT0006950001,0.1665611383551225,0.1669424621214832,Solid Tissue Normal,Kidney,Clear Cell Renal Cell Carcinoma
+CPTAC CCRCC Discovery Study - Proteome,CPT0006900003,0.1320123588270428,0.1212405728238771,Primary Tumor,Kidney,Clear Cell Renal Cell Carcinoma
+CPTAC CCRCC Discovery Study - Proteome,CPT0010120001,0.0258037993905941,0.0298984117978746,Solid Tissue Normal,Kidney,Clear Cell Renal Cell Carcinoma
+CPTAC CCRCC Discovery Study - Proteome,CPT0025610001,0.2574348758845748,0.2571066747287157,Solid Tissue Normal,Kidney,Clear Cell Renal Cell Carcinoma
+CPTAC CCRCC Discovery Study - Proteome,CPT0081600003,-0.0675022320198191,-0.0647672442390342,Primary Tumor,Kidney,Clear Cell Renal Cell Carcinoma
+CPTAC CCRCC Discovery Study - Proteome,CPT0081620001,0.1681645037159316,0.1688172737256217,Solid Tissue Normal,Kidney,Clear Cell Renal Cell Carcinoma
+CPTAC CCRCC Discovery Study - Proteome,CPT0025580004,0.2924932530990578,0.2900653203831642,Primary Tumor,Kidney,Clear Cell Renal Cell Carcinoma
+CPTAC CCRCC Discovery Study - Proteome,CPT0010110003,-0.0164800139552075,-0.0129937276245037,Primary Tumor,Kidney,Clear Cell Renal Cell Carcinoma
+CPTAC CCRCC Discovery Study - Proteome,CPT0001180009,-0.5722603855116098,-0.5659769760559259,Primary Tumor,Kidney,Clear Cell Renal Cell Carcinoma
+CPTAC CCRCC Discovery Study - Proteome,CPT0082010001,0.0372990664358617,0.0393823331256786,Solid Tissue Normal,Kidney,Clear Cell Renal Cell Carcinoma
+CPTAC CCRCC Discovery Study - Proteome,CPT0015910003,-0.024767395221946,-0.0356259763337434,Primary Tumor,Kidney,Clear Cell Renal Cell Carcinoma
+CPTAC CCRCC Discovery Study - Proteome,CPT0086870003,0.0202469717450105,0.0224940666000285,Primary Tumor,Kidney,Clear Cell Renal Cell Carcinoma
+CPTAC CCRCC Discovery Study - Proteome,CPT0063330001,-0.1266359278257598,-0.1273348060729116,Solid Tissue Normal,Kidney,Clear Cell Renal Cell Carcinoma
+CPTAC CCRCC Discovery Study - Proteome,CPT0001190001,-0.218628857516866,-0.2174151373786782,Solid Tissue Normal,Kidney,Clear Cell Renal Cell Carcinoma
+CPTAC CCRCC Discovery Study - Proteome,CPT0063320003,0.223267860640804,0.2155699834771078,Primary Tumor,Kidney,Clear Cell Renal Cell Carcinoma
+CPTAC CCRCC Discovery Study - Proteome,CPT0081990003,0.2689702620483938,0.2684276037467978,Primary Tumor,Kidney,Clear Cell Renal Cell Carcinoma
+CPTAC CCRCC Discovery Study - Proteome,CPT0086890003,-0.1371223199466743,-0.1354121307548081,Solid Tissue Normal,Kidney,Clear Cell Renal Cell Carcinoma
+CPTAC CCRCC Discovery Study - Proteome,CPT0078660003,0.2146337763883251,0.2210380590909734,Primary Tumor,Kidney,Clear Cell Renal Cell Carcinoma
+CPTAC CCRCC Discovery Study - Proteome,CPT0001340003,-0.9498188160327924,-0.9498188160327924,Primary Tumor,Kidney,Clear Cell Renal Cell Carcinoma
+CPTAC CCRCC Discovery Study - Proteome,CPT0020130001,0.2701522717141908,0.2740591436062148,Solid Tissue Normal,Kidney,Clear Cell Renal Cell Carcinoma
+CPTAC CCRCC Discovery Study - Proteome,CPT0075170001,-0.4176253047651002,-0.414393451848582,Solid Tissue Normal,Kidney,Clear Cell Renal Cell Carcinoma
+CPTAC CCRCC Discovery Study - Proteome,CPT0001350001,-0.0078527858661417,-0.010134820627004,Solid Tissue Normal,Kidney,Clear Cell Renal Cell Carcinoma
+CPTAC CCRCC Discovery Study - Proteome,QC4,0.0193719853437419,0.0308709197315031,Not Reported,Not Reported,Other
+CPTAC CCRCC Discovery Study - Proteome,CPT0078670001,0.0643224297183509,0.0629119734583705,Solid Tissue Normal,Kidney,Clear Cell Renal Cell Carcinoma
+CPTAC CCRCC Discovery Study - Proteome,CPT0075130003,-0.5406540535571421,-0.5379903924835687,Primary Tumor,Kidney,Clear Cell Renal Cell Carcinoma
+CPTAC CCRCC Discovery Study - Proteome,CPT0020120003,-0.4223083365856181,-0.4303952904504915,Primary Tumor,Kidney,Clear Cell Renal Cell Carcinoma
+CPTAC CCRCC Discovery Study - Proteome,CPT0078930003,0.2542769892821472,0.24849294688873,Primary Tumor,Kidney,Clear Cell Renal Cell Carcinoma
+CPTAC CCRCC Discovery Study - Proteome,NCI7-4,-1.272677526379749,-1.2725065825811048,Cell Lines,Not Reported,Other
+CPTAC CCRCC Discovery Study - Proteome,CPT0089480003,0.1167647202836216,0.1203250565338164,Solid Tissue Normal,Kidney,Clear Cell Renal Cell Carcinoma
+CPTAC CCRCC Discovery Study - Proteome,CPT0000640003,0.2234360217237068,0.2263958472823636,Primary Tumor,Kidney,Clear Cell Renal Cell Carcinoma
+CPTAC CCRCC Discovery Study - Proteome,CPT0078940001,0.1583131163609674,0.159965116184552,Solid Tissue Normal,Kidney,Clear Cell Renal Cell Carcinoma
+CPTAC CCRCC Discovery Study - Proteome,CPT0088630003,-0.1098347125564465,-0.1073551084569394,Primary Tumor,Kidney,Clear Cell Renal Cell Carcinoma
+CPTAC CCRCC Discovery Study - Proteome,CPT0089460004,0.3427873860971814,0.3322824914140573,Primary Tumor,Kidney,Clear Cell Renal Cell Carcinoma
+CPTAC CCRCC Discovery Study - Proteome,CPT0000660001,-0.1251322920272693,-0.1240005843091946,Solid Tissue Normal,Kidney,Clear Cell Renal Cell Carcinoma
+CPTAC CCRCC Discovery Study - Proteome,CPT0088640003,-0.0302889710242104,-0.0269620830335556,Solid Tissue Normal,Kidney,Clear Cell Renal Cell Carcinoma
+CPTAC CCRCC Discovery Study - Proteome,CPT0084560003,-0.2250212133728938,-0.2185517764405766,Primary Tumor,Kidney,Clear Cell Renal Cell Carcinoma
+CPTAC CCRCC Discovery Study - Proteome,CPT0084590001,-0.2989375735828147,-0.2955554694995518,Solid Tissue Normal,Kidney,Clear Cell Renal Cell Carcinoma
+CPTAC CCRCC Discovery Study - Proteome,CPT0007470001,0.0904690265258844,0.0921838846918032,Solid Tissue Normal,Kidney,Clear Cell Renal Cell Carcinoma
+CPTAC CCRCC Discovery Study - Proteome,CPT0065870003,0.1772842282366096,0.1766667675142569,Primary Tumor,Kidney,Clear Cell Renal Cell Carcinoma
+CPTAC CCRCC Discovery Study - Proteome,CPT0086830003,-0.0743046490403042,-0.073832190387254,Solid Tissue Normal,Kidney,Clear Cell Renal Cell Carcinoma
+CPTAC CCRCC Discovery Study - Proteome,CPT0069000003,0.6106788401517276,0.6105640787377821,Primary Tumor,Kidney,Clear Cell Renal Cell Carcinoma
+CPTAC CCRCC Discovery Study - Proteome,CPT0007320003,-0.0209958583371844,-0.02848693224898,Primary Tumor,Kidney,Clear Cell Renal Cell Carcinoma
+CPTAC CCRCC Discovery Study - Proteome,CPT0086820003,-0.1332792336324405,-0.1316333742913766,Primary Tumor,Kidney,Clear Cell Renal Cell Carcinoma
+CPTAC CCRCC Discovery Study - Proteome,CPT0069010001,0.1383326651142804,0.1401088726119489,Solid Tissue Normal,Kidney,Clear Cell Renal Cell Carcinoma
+CPTAC CCRCC Discovery Study - Proteome,CPT0002350011,-0.1271538116876003,-0.1224823886232333,Primary Tumor,Kidney,Clear Cell Renal Cell Carcinoma
+CPTAC CCRCC Discovery Study - Proteome,CPT0063640001,0.1989589842351373,0.1981777212166171,Solid Tissue Normal,Kidney,Clear Cell Renal Cell Carcinoma
+CPTAC CCRCC Discovery Study - Proteome,NCI7-5,-1.2108058937079804,-1.2058828219854378,Cell Lines,Not Reported,Other
+CPTAC CCRCC Discovery Study - Proteome,CPT0088780001,0.1424640490688294,0.1384235116373742,Solid Tissue Normal,Kidney,Clear Cell Renal Cell Carcinoma
+CPTAC CCRCC Discovery Study - Proteome,CPT0088760003,0.0864070048477036,0.0895058827924945,Primary Tumor,Kidney,Clear Cell Renal Cell Carcinoma
+CPTAC CCRCC Discovery Study - Proteome,CPT0088710001,0.1090255886102052,0.1083109530281949,Solid Tissue Normal,Kidney,Clear Cell Renal Cell Carcinoma
+CPTAC CCRCC Discovery Study - Proteome,CPT0088690003,-0.2130974310640065,-0.2102564990054463,Primary Tumor,Kidney,Clear Cell Renal Cell Carcinoma
+CPTAC CCRCC Discovery Study - Proteome,CPT0002370001,-0.1363568515859111,-0.136936260516598,Solid Tissue Normal,Kidney,Clear Cell Renal Cell Carcinoma
+CPTAC CCRCC Discovery Study - Proteome,CPT0063630003,0.1813642803562987,0.1824963721142169,Primary Tumor,Kidney,Clear Cell Renal Cell Carcinoma
+CPTAC CCRCC Discovery Study - Proteome,CPT0064370003,-0.0023035719452014,-0.0121653364053413,Primary Tumor,Kidney,Clear Cell Renal Cell Carcinoma
+CPTAC CCRCC Discovery Study - Proteome,CPT0010170001,0.1892324265837304,0.190224451810938,Solid Tissue Normal,Kidney,Clear Cell Renal Cell Carcinoma
+CPTAC CCRCC Discovery Study - Proteome,CPT0064400001,0.209189364848484,0.2113750039793281,Solid Tissue Normal,Kidney,Clear Cell Renal Cell Carcinoma
+CPTAC CCRCC Discovery Study - Proteome,CPT0086970003,0.0839984754422236,0.0865526827109481,Solid Tissue Normal,Kidney,Clear Cell Renal Cell Carcinoma
+CPTAC CCRCC Discovery Study - Proteome,CPT0092190003,-0.206189947536244,-0.2093179363588812,Solid Tissue Normal,Kidney,Clear Cell Renal Cell Carcinoma
+CPTAC CCRCC Discovery Study - Proteome,CPT0092160003,-0.0250414495064271,-0.030054237532026,Primary Tumor,Kidney,Clear Cell Renal Cell Carcinoma
+CPTAC CCRCC Discovery Study - Proteome,CPT0010160003,0.6529540041285584,0.652912343289184,Primary Tumor,Kidney,Clear Cell Renal Cell Carcinoma
+CPTAC CCRCC Discovery Study - Proteome,QC5,0.016252135842755,0.023548808844034,Not Reported,Not Reported,Other
+CPTAC CCRCC Discovery Study - Proteome,CPT0086950003,-0.3524444524599513,-0.355298297614994,Primary Tumor,Kidney,Clear Cell Renal Cell Carcinoma
+CPTAC CCRCC Discovery Study - Proteome,CPT0088900003,0.9582143039876656,0.9623030308763432,Primary Tumor,Kidney,Clear Cell Renal Cell Carcinoma
+CPTAC CCRCC Discovery Study - Proteome,CPT0079270003,0.6705715649510876,0.6716404354147139,Primary Tumor,Kidney,Clear Cell Renal Cell Carcinoma
+CPTAC CCRCC Discovery Study - Proteome,CPT0088920001,-0.0394909762090539,-0.0393644929522781,Solid Tissue Normal,Kidney,Clear Cell Renal Cell Carcinoma
+CPTAC CCRCC Discovery Study - Proteome,CPT0079300001,-0.0996369862006761,-0.0971551681004207,Solid Tissue Normal,Kidney,Clear Cell Renal Cell Carcinoma
+CPTAC CCRCC Discovery Study - Proteome,CPT0088550004,-0.2259015192704048,-0.2215955409750559,Primary Tumor,Kidney,Clear Cell Renal Cell Carcinoma
+CPTAC CCRCC Discovery Study - Proteome,QC6,-0.1687633279766552,-0.1614034851831159,Not Reported,Not Reported,Other
+CPTAC CCRCC Discovery Study - Proteome,CPT0014450004,-0.0189350254508736,-0.0116049706675004,Primary Tumor,Kidney,Clear Cell Renal Cell Carcinoma
+CPTAC CCRCC Discovery Study - Proteome,CPT0088570001,-0.0040672023557647,-0.0035895337445709,Solid Tissue Normal,Kidney,Clear Cell Renal Cell Carcinoma
+CPTAC CCRCC Discovery Study - Proteome,CPT0014470001,0.1007799914671765,0.0969409027269428,Solid Tissue Normal,Kidney,Clear Cell Renal Cell Carcinoma
+CPTAC CCRCC Discovery Study - Proteome,CPT0006730001,0.0688207873982395,0.0692273557068599,Solid Tissue Normal,Kidney,Clear Cell Renal Cell Carcinoma
+CPTAC CCRCC Discovery Study - Proteome,CPT0069190001,-0.2518653138407345,-0.2515261580890407,Solid Tissue Normal,Kidney,Clear Cell Renal Cell Carcinoma
+CPTAC CCRCC Discovery Study - Proteome,CPT0092730003,-0.0923294774537911,-0.0927193299730327,Primary Tumor,Kidney,Clear Cell Renal Cell Carcinoma
+CPTAC CCRCC Discovery Study - Proteome,CPT0092740003,-0.041352450581512,-0.0361316535941093,Solid Tissue Normal,Kidney,Clear Cell Renal Cell Carcinoma
+CPTAC CCRCC Discovery Study - Proteome,QC7,-0.1206382505196949,-0.1142962150946353,Not Reported,Not Reported,Other
+CPTAC CCRCC Discovery Study - Proteome,CPT0006630003,0.3219544038852592,0.3161919443738064,Primary Tumor,Kidney,Clear Cell Renal Cell Carcinoma
+CPTAC CCRCC Discovery Study - Proteome,CPT0025920001,-0.0151001196649443,-0.0164280099510961,Solid Tissue Normal,Kidney,Clear Cell Renal Cell Carcinoma
+CPTAC CCRCC Discovery Study - Proteome,CPT0025880003,0.3157209198110975,0.3175898918183754,Primary Tumor,Kidney,Clear Cell Renal Cell Carcinoma
+CPTAC CCRCC Discovery Study - Proteome,CPT0069160003,-0.1701328531164464,-0.1748023346055043,Primary Tumor,Kidney,Clear Cell Renal Cell Carcinoma
+CPTAC CCRCC Discovery Study - Proteome,CPT0007870001,0.0814190476055923,0.0875504589656076,Solid Tissue Normal,Kidney,Clear Cell Renal Cell Carcinoma
+CPTAC CCRCC Discovery Study - Proteome,CPT0001270001,-0.206187058048312,-0.2018398416144933,Solid Tissue Normal,Kidney,Clear Cell Renal Cell Carcinoma
+CPTAC CCRCC Discovery Study - Proteome,CPT0077110003,0.010362725989697,0.016948168908875,Primary Tumor,Kidney,Clear Cell Renal Cell Carcinoma
+CPTAC CCRCC Discovery Study - Proteome,QC8,-0.2921411156192984,-0.2783956478186362,Not Reported,Not Reported,Other
+CPTAC CCRCC Discovery Study - Proteome,CPT0077140001,0.1458336452481086,0.146718551506109,Solid Tissue Normal,Kidney,Clear Cell Renal Cell Carcinoma
+CPTAC CCRCC Discovery Study - Proteome,CPT0001260009,-0.1682006489428684,-0.1645531660881415,Primary Tumor,Kidney,Clear Cell Renal Cell Carcinoma
+CPTAC CCRCC Discovery Study - Proteome,CPT0076350001,-0.0824024796117034,-0.0814868708213754,Solid Tissue Normal,Kidney,Clear Cell Renal Cell Carcinoma
+CPTAC CCRCC Discovery Study - Proteome,CPT0076330003,-0.0891657492436549,-0.0897965983537536,Primary Tumor,Kidney,Clear Cell Renal Cell Carcinoma
+CPTAC CCRCC Discovery Study - Proteome,CPT0007860003,0.1702949305504974,0.1606461142868767,Primary Tumor,Kidney,Clear Cell Renal Cell Carcinoma
+CPTAC CCRCC Discovery Study - Proteome,CPT0079380003,-0.0096189515041264,-0.0073976083196615,Primary Tumor,Kidney,Clear Cell Renal Cell Carcinoma
+CPTAC CCRCC Discovery Study - Proteome,CPT0015810003,0.4157046523299867,0.4151134899235839,Primary Tumor,Kidney,Clear Cell Renal Cell Carcinoma
+CPTAC CCRCC Discovery Study - Proteome,CPT0086030003,0.2956000869978642,0.2938576955164325,Primary Tumor,Kidney,Clear Cell Renal Cell Carcinoma
+CPTAC CCRCC Discovery Study - Proteome,CPT0085670003,-0.1446532471082361,-0.1459749831151206,Primary Tumor,Kidney,Clear Cell Renal Cell Carcinoma
+CPTAC CCRCC Discovery Study - Proteome,CPT0025230003,0.0820411710418528,0.0871212923627369,Primary Tumor,Kidney,Clear Cell Renal Cell Carcinoma
+CPTAC CCRCC Discovery Study - Proteome,CPT0065750003,-0.141139532635387,-0.1499206849071161,Primary Tumor,Kidney,Clear Cell Renal Cell Carcinoma
+CPTAC CCRCC Discovery Study - Proteome,CPT0015730003,0.0633914868707278,0.0634095338381123,Primary Tumor,Kidney,Clear Cell Renal Cell Carcinoma
+CPTAC CCRCC Discovery Study - Proteome,CPT0078800003,-0.1102091243280006,-0.1086278416663385,Primary Tumor,Kidney,Clear Cell Renal Cell Carcinoma
+CPTAC CCRCC Discovery Study - Proteome,CPT0079230003,-0.0783884366140145,-0.0706702978079044,Primary Tumor,Kidney,Clear Cell Renal Cell Carcinoma
+CPTAC CCRCC Discovery Study - Proteome,CPT0025170003,0.0931853457561697,0.0931525127917949,Primary Tumor,Kidney,Clear Cell Renal Cell Carcinoma
+CPTAC CCRCC Discovery Study - Proteome,CPT0025110003,0.822986719030393,0.826511242377512,Primary Tumor,Kidney,Clear Cell Renal Cell Carcinoma
+CPTAC CCRCC Discovery Study - Proteome,CPT0025290003,0.145446073692449,0.1488915554557233,Primary Tumor,Kidney,Clear Cell Renal Cell Carcinoma
+CPTAC CCRCC Discovery Study - Proteome,CPT0081880003,-0.2204264957937687,-0.215170625486657,Primary Tumor,Kidney,Clear Cell Renal Cell Carcinoma
+CPTAC CCRCC Discovery Study - Proteome,CPT0075720003,0.2427242909798579,0.2440661461226484,Primary Tumor,Kidney,Clear Cell Renal Cell Carcinoma
+CPTAC CCRCC Discovery Study - Proteome,CPT0065930003,0.4378063840295149,0.4326777192784732,Primary Tumor,Kidney,Clear Cell Renal Cell Carcinoma
+CPTAC CCRCC Discovery Study - Proteome,CPT0025350003,0.4055893737799299,0.4097069997831043,Primary Tumor,Kidney,Clear Cell Renal Cell Carcinoma
+CPTAC CCRCC Discovery Study - Proteome,CPT0065690003,-0.2450354729535673,-0.2480620988704568,Primary Tumor,Kidney,Clear Cell Renal Cell Carcinoma
+CPTAC CCRCC Discovery Study - Proteome,CPT0011410003,-0.2941160052778761,-0.2905132113941909,Primary Tumor,Kidney,Clear Cell Renal Cell Carcinoma
+CPTAC CCRCC Discovery Study - Proteome,CPT0024670003,-0.1521444642464043,-0.1423484975540123,Primary Tumor,Kidney,Clear Cell Renal Cell Carcinoma
+CPTAC CCRCC Discovery Study - Proteome,CPT0024680001,0.1712732953959724,0.1686319552279647,Solid Tissue Normal,Kidney,Clear Cell Renal Cell Carcinoma
+CPTAC CCRCC Discovery Study - Proteome,CPT0012550003,-0.2143646610452617,-0.2123368972130723,Primary Tumor,Kidney,Clear Cell Renal Cell Carcinoma
+CPTAC CCRCC Discovery Study - Proteome,CPT0013790003,0.0342379801417574,0.0343099192473182,Solid Tissue Normal,Kidney,Clear Cell Renal Cell Carcinoma
+CPTAC CCRCC Discovery Study - Proteome,CPT0012570003,-0.0708443165242158,-0.0719042519036056,Solid Tissue Normal,Kidney,Clear Cell Renal Cell Carcinoma
+CPTAC CCRCC Discovery Study - Proteome,CPT0012770003,0.2878355778027215,0.2836345253792641,Solid Tissue Normal,Kidney,Clear Cell Renal Cell Carcinoma
+CPTAC CCRCC Discovery Study - Proteome,CPT0012370003,0.4334784444447004,0.4383774068963567,Primary Tumor,Kidney,Clear Cell Renal Cell Carcinoma
+CPTAC CCRCC Discovery Study - Proteome,CPT0011240003,0.5249653807802264,0.5247397531999372,Primary Tumor,Kidney,Clear Cell Renal Cell Carcinoma
+CPTAC CCRCC Discovery Study - Proteome,CPT0079180003,0.2553729407370825,0.2664479349845528,Primary Tumor,Kidney,Clear Cell Renal Cell Carcinoma
+CPTAC CCRCC Discovery Study - Proteome,CPT0012640003,0.018722820819687,0.0198210693106924,Solid Tissue Normal,Kidney,Clear Cell Renal Cell Carcinoma
+CPTAC CCRCC Discovery Study - Proteome,CPT0012090003,0.188730059508107,0.1909176654241983,Solid Tissue Normal,Kidney,Clear Cell Renal Cell Carcinoma
+CPTAC CCRCC Discovery Study - Proteome,CPT0018250001,0.180117595952668,0.1811839854726751,Solid Tissue Normal,Kidney,Clear Cell Renal Cell Carcinoma
+CPTAC CCRCC Discovery Study - Proteome,CPT0012290003,-0.071191644832679,-0.0688120325450334,Solid Tissue Normal,Kidney,Clear Cell Renal Cell Carcinoma
+CPTAC CCRCC Discovery Study - Proteome,CPT0017850003,-0.4333010459064551,-0.4276820712567174,Primary Tumor,Kidney,Clear Cell Renal Cell Carcinoma
+CPTAC CCRCC Discovery Study - Proteome,CPT0012180003,0.0444424733330751,0.044429798496489,Primary Tumor,Kidney,Clear Cell Renal Cell Carcinoma
+CPTAC CCRCC Discovery Study - Proteome,CPT0012280003,0.2464046297155226,0.2468803128400363,Primary Tumor,Kidney,Clear Cell Renal Cell Carcinoma
+CPTAC CCRCC Discovery Study - Proteome,CPT0012670003,-0.0726703179777891,-0.0734437161313986,Primary Tumor,Kidney,Clear Cell Renal Cell Carcinoma
+CPTAC CCRCC Discovery Study - Proteome,CPT0012080003,0.2776909137732155,0.2810470279802394,Primary Tumor,Kidney,Clear Cell Renal Cell Carcinoma
+CPTAC CCRCC Discovery Study - Proteome,CPT0021240003,0.3543772819225051,0.3557941608239954,Primary Tumor,Kidney,Clear Cell Renal Cell Carcinoma
+CPTAC CCRCC Discovery Study - Proteome,CPT0009020003,0.1217284995315685,0.1209283397560881,Solid Tissue Normal,Kidney,Clear Cell Renal Cell Carcinoma
+CPTAC CCRCC Discovery Study - Proteome,CPT0017450001,-0.0677626563438607,-0.0691786401518955,Solid Tissue Normal,Kidney,Clear Cell Renal Cell Carcinoma
+CPTAC CCRCC Discovery Study - Proteome,CPT0009060003,-0.1688580621592985,-0.1713137409502547,Primary Tumor,Kidney,Clear Cell Renal Cell Carcinoma
+CPTAC CCRCC Discovery Study - Proteome,CPT0012900004,0.4202506235266992,0.4134624693665675,Primary Tumor,Kidney,Clear Cell Renal Cell Carcinoma
+CPTAC CCRCC Discovery Study - Proteome,CPT0017410003,0.0215539343228529,0.0188811533660283,Primary Tumor,Kidney,Clear Cell Renal Cell Carcinoma
+CPTAC CCRCC Discovery Study - Proteome,CPT0009080003,0.387089019952094,0.3863697951702452,Solid Tissue Normal,Kidney,Clear Cell Renal Cell Carcinoma
+CPTAC CCRCC Discovery Study - Proteome,CPT0012920003,0.0657609370939067,0.0655395285299686,Solid Tissue Normal,Kidney,Clear Cell Renal Cell Carcinoma
+CPTAC CCRCC Discovery Study - Proteome,CPT0009000003,0.4634240364531724,0.4630639350392152,Primary Tumor,Kidney,Clear Cell Renal Cell Carcinoma
